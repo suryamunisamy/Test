@@ -1,0 +1,27 @@
+Date/Time: Fri Jan 06 2023 18:03:32 GMT+0530 (India Standard Time)
+OS Version: Windows_NT 10.0.19042
+Architecture: x64
+
+CI Version: 9.6.8
+node version: v18.1.0
+
+Ant Home: C:\Users\2154743\apache-ant-1.10.8
+Java Home: C:\Program Files\Java\jdk1.8.0_311
+Android Home: C:\Users\2154743\AppData\Local\Android\sdk
+
+Java Version: 'C:\Program' is not recognized as an internal or external command,
+operable program or batch file.
+NPM version: 8.8.0
+Ant version: Apache Ant(TM) version 1.10.8 compiled on May 10 2020
+Gradle version: undefined
+Xcode version: undefined
+Finalizer version: undefined
+
+Plugin List: com.kony.mobile.fabric.client.sdk_9.6.5.v202210071212.jar
+com.kony.referencearchitecture_9.6.3.v202209191123.jar
+com.kony.studio.viz.core.win64_9.6.8.v202211081743.jar
+com.pat.android_9.6.7.v202211031320.jar
+com.pat.tool.keditor_9.6.0.v202207140059.jar
+pluginversion.json
+Build Error: undefined
+

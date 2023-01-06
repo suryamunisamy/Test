@@ -1,0 +1,1757 @@
+[2023-01-06 16:33:35.404] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.6.8
+        -------------------------------
+         node version: v18.1.0
+
+[2023-01-06 16:33:39.932] [DEBUG] ci -  ➠ Pre-build validations
+[2023-01-06 16:33:39.933] [INFO] ci - ✓ ANT_HOME
+[2023-01-06 16:33:39.934] [INFO] ci - ✓ javaloc
+[2023-01-06 16:33:39.934] [INFO] ci - ✓ androidHome
+[2023-01-06 16:33:39.936] [INFO] ci - ✓ java version
+[2023-01-06 16:33:39.937] [INFO] ci - ✓ ant version
+[2023-01-06 16:33:39.937] [INFO] ci - ✓ node version
+[2023-01-06 16:33:39.937] [INFO] ci -  xcode 9.0 - not found
+[2023-01-06 16:33:39.938] [DEBUG] ~~~~ - Close Current Watcher
+[2023-01-06 16:33:39.943] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:39.944] [INFO] ~~~~ - Validating project structure using validator template: '9.6'
+[2023-01-06 16:33:39.980] [INFO] ~~~~ - Validating project themes: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:39.981] [INFO] ~~~~ - Project dir:  C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:39.981] [INFO] ~~~~ - Theme dir, size:  C:\Users\2154743\VisualizerWorkspace\Test\themes\defaultTheme 16
+[2023-01-06 16:33:39.982] [DEBUG] ~~~~ - skip read constants
+[2023-01-06 16:33:39.994] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2023-01-06 16:33:39.994] [INFO] ~~~~ - 
+Project dir:  C:\Users\2154743\VisualizerWorkspace\Test 
+No of uniq skin ids:  15
+[2023-01-06 16:33:39.995] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2023-01-06 16:33:39.996] [INFO] ci - 
+[2023-01-06 16:33:39.999] [INFO] ci - 
+[2023-01-06 16:33:40.000] [INFO] ci - andtargetsdkkey selected is 12.0 (31)
+[2023-01-06 16:33:40.001] [INFO] ci - andtargetsdkkey API level is 31
+[2023-01-06 16:33:40.001] [INFO] ci - andtargetsdkkey selected API Level is 31
+[2023-01-06 16:33:40.001] [INFO] ci - andweartargetsdkkey selected is undefined
+[2023-01-06 16:33:40.004] [DEBUG] ci -  Done... 
+
+[2023-01-06 16:33:40.005] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\Test\projectProperties.json
+[2023-01-06 16:33:40.006] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\config\HeadlessBuild-Default.json
+[2023-01-06 16:33:40.006] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\Test\HeadlessBuild.properties
+[2023-01-06 16:33:40.009] [INFO] ci - Cleaning binaries location...
+[2023-01-06 16:33:40.010] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\Test\binaries\android deleted.
+[2023-01-06 16:33:40.010] [INFO] ci - Cleaning webapps location...
+[2023-01-06 16:33:40.010] [INFO] ci - 
+[2023-01-06 16:33:40.993] [INFO] ci - 
+[2023-01-06 16:33:52.953] [DEBUG] ci - Upgrade native apis...
+[2023-01-06 16:33:52.956] [INFO] ci - NFIs in your project are upto date. No upgrade required.
+[2023-01-06 16:33:52.985] [INFO] ci - ‼︎ Service config is not provided. Skip setting service doc.
+[2023-01-06 16:33:52.987] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 16:33:52.989] [INFO] ci - 
+[2023-01-06 16:33:53.316] [DEBUG] ~~~~ - Delete native framework from workspace
+[2023-01-06 16:33:53.318] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\2154743\VisualizerWorkspace\.nativebindings\nativeapi.json
+[2023-01-06 16:33:53.318] [DEBUG] ~~~~ - Delete native framework from project: /Test/--self--
+[2023-01-06 16:33:53.319] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\2154743\VisualizerWorkspace\Test\nativeapi.json
+[2023-01-06 16:33:53.373] [DEBUG] ~~~~ - Delete native framework from workspace
+[2023-01-06 16:33:53.375] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-14.3 C:\Users\2154743\VisualizerWorkspace\.nativebindings\3.0\nativeapi.json
+[2023-01-06 16:33:53.375] [DEBUG] ~~~~ - Delete native framework from project: /Test/--self--
+[2023-01-06 16:33:53.375] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-14.3 C:\Users\2154743\VisualizerWorkspace\Test\nativeapi.json
+[2023-01-06 16:33:53.376] [DEBUG] ~~~~ - Imported 8 Sync FFI.
+[2023-01-06 16:33:53.376] [INFO] ci - Added default native function APIs.
+[2023-01-06 16:33:53.377] [INFO] ci - 
+[2023-01-06 16:33:53.396] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2023-01-06 16:33:53.396] [INFO] ci - Copying sdk files.
+[2023-01-06 16:33:53.398] [INFO] ci - KonySyncLib.js is not found in SDK plugin.
+[2023-01-06 16:33:53.412] [INFO] ci - SDK file is copied.
+[2023-01-06 16:33:53.413] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 16:33:53.416] [INFO] ci - 
+[2023-01-06 16:33:53.478] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 16:33:53.480] [INFO] ci - 
+[2023-01-06 16:33:53.775] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 16:33:53.777] [INFO] ci - 
+[2023-01-06 16:33:53.815] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 16:33:53.817] [INFO] ci - 
+[2023-01-06 16:33:53.818] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 16:33:53.820] [INFO] ci - 
+[2023-01-06 16:33:53.820] [INFO] ci - Start of command line application build.
+[2023-01-06 16:33:53.821] [INFO] ci - Start of Visulaizer Codegen.
+[2023-01-06 16:33:53.821] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:53.822] [INFO] ci - 
+[2023-01-06 16:33:53.824] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2023-01-06 16:33:53.847] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2023-01-06 16:33:53.875] [DEBUG] ~~~~ - Saving forms controller actions for channel: mobile
+[2023-01-06 16:33:53.936] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  maps
+[2023-01-06 16:33:53.937] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  segments
+[2023-01-06 16:33:54.061] [DEBUG] ~~~~ - Saving user widgets controller actions
+[2023-01-06 16:33:54.064] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:54.065] [INFO] ~~~~ - Validating project structure using validator template: '9.6'
+[2023-01-06 16:33:54.128] [INFO] ~~~~ - Validating project themes: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:54.129] [INFO] ~~~~ - Project dir:  C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:54.130] [INFO] ~~~~ - Theme dir, size:  C:\Users\2154743\VisualizerWorkspace\Test\themes\defaultTheme 16
+[2023-01-06 16:33:54.131] [DEBUG] ~~~~ - skip read constants
+[2023-01-06 16:33:54.136] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2023-01-06 16:33:54.136] [INFO] ~~~~ - 
+Project dir:  C:\Users\2154743\VisualizerWorkspace\Test 
+No of uniq skin ids:  15
+[2023-01-06 16:33:54.137] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2023-01-06 16:33:54.142] [INFO] ci - End of Visulaizer Codegen.
+[2023-01-06 16:33:54.151] [DEBUG] ~~~~ - [BUILD] Codegen starts. StartTime: 1673003034151
+[2023-01-06 16:33:54.323] [INFO] ~~~~ - <---Codegeneration Started--->
+[2023-01-06 16:33:54.376] [DEBUG] ~~~~ - NO SUCH DIRECTORY TO CLEAN: C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android
+[2023-01-06 16:33:54.383] [DEBUG] ~~~~ - [BUILD] Code generation for android
+[2023-01-06 16:33:54.385] [DEBUG] ~~~~ - Scripts output directory C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android\src
+[2023-01-06 16:33:55.012] [DEBUG] ~~~~ - [BUILD] Codegen ends. endTime: 1673003035012. Time taken (in ms) : 861
+[2023-01-06 16:33:55.013] [DEBUG] ~~~~ - [BUILD] Archiving starts. Start time: 1673003035013
+[2023-01-06 16:33:55.016] [DEBUG] ~~~~ - Web Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android
+[2023-01-06 16:33:55.016] [DEBUG] ~~~~ - SPA Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test
+[2023-01-06 16:33:55.016] [DEBUG] ~~~~ - Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test
+[2023-01-06 16:33:55.017] [DEBUG] ~~~~ - Populating project Test
+[2023-01-06 16:33:55.017] [DEBUG] ~~~~ - USING IDE EVENTS :: true
+[2023-01-06 16:33:56.393] [DEBUG] ~~~~ - Populate Completed
+[2023-01-06 16:33:56.394] [DEBUG] ~~~~ - Building for android
+[2023-01-06 16:33:56.394] [INFO] ~~~~ - Code generation for project 'Test' completed.
+[2023-01-06 16:33:56.394] [DEBUG] ~~~~ - Codegen Status :  { android: 'success' }
+[2023-01-06 16:33:56.829] [DEBUG] ~~~~ - [BUILD] Archiving ends. End time: 1673003036829. Time taken (in ms) : 1816
+[2023-01-06 16:33:56.829] [INFO] ci - [ 'android' ]
+[2023-01-06 16:33:56.834] [INFO] ci - 
+[2023-01-06 16:33:56.845] [INFO] ci - Loaded common properties. 
+[2023-01-06 16:33:56.846] [INFO] ci - Platform:android , build status : STARTED
+[2023-01-06 16:33:56.852] [INFO] ci - Minimum SDK API level is 21
+[2023-01-06 16:33:56.853] [INFO] ci - Target SDK API level is 31
+[2023-01-06 16:33:56.854] [INFO] ci - 
+[2023-01-06 16:33:56.855] [INFO] ci - andminsdkkey API level is 27
+[2023-01-06 16:33:56.859] [INFO] ci - 
+[2023-01-06 16:33:57.003] [INFO] ci - 
+[2023-01-06 16:33:57.009] [INFO] ci - 
+[2023-01-06 16:33:57.171] [INFO] ci - 
+[2023-01-06 16:33:57.179] [INFO] ci - 
+[2023-01-06 16:33:57.295] [INFO] ci - 
+[2023-01-06 16:33:57.316] [INFO] ci - andtargetsdkkey API level is 31
+[2023-01-06 16:33:57.319] [INFO] ci - Loaded properties. android
+[2023-01-06 16:33:57.320] [INFO] ci - Start of build for platform : android
+[2023-01-06 16:33:57.320] [INFO] ci - APPFOLDER C:\Users\2154743\VisualizerWorkspace\temp\Test
+[2023-01-06 16:33:57.320] [INFO] ci -  propFilePath C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties
+[2023-01-06 16:33:57.322] [INFO] ci - Platform:android , build status : INPROGRESS
+[2023-01-06 16:33:57.363] [INFO] ci - Execute task Packageandroid...
+[2023-01-06 16:33:57.365] [INFO] ci -  ANT_HOME: C:\Users\2154743\apache-ant-1.10.8\bin\ant
+[2023-01-06 16:33:57.365] [INFO] ci - -DcmdLinePropertyFile C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties -f C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\build.xml -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\ant-contrib-0.6.jar -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\AntelopeTasks_3.4.0.jar -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\antlr-3.3-complete.jar all
+[2023-01-06 16:33:58.376] [INFO] ci - Buildfile: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\build.xml
+[2023-01-06 16:33:58.689] [INFO] ci - init:
+[2023-01-06 16:33:58.748] [INFO] ci - [echo] property file availble loc: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties
+[2023-01-06 16:33:58.793] [INFO] ci - [echo] isLibraryBuild :: false
+[2023-01-06 16:33:58.794] [INFO] ci - [echo] UseSQLCipherFIPS :: false
+     [echo] UseOpenSSLLibrary :: false
+     [echo] build option :: release
+[2023-01-06 16:33:58.794] [INFO] ci - [echo] andtargetsdkkey :: 31
+[2023-01-06 16:33:58.794] [INFO] ci - [echo] donotAddQueryAllPackages:: ${donotAddQueryAllPackages}
+[2023-01-06 16:33:58.797] [INFO] ci - [echo]  support_arm_32bit  :: false
+[2023-01-06 16:33:58.798] [INFO] ci - [echo]  support_arm_64bit  :: true
+     [echo]  support_x86_32bit  :: false
+[2023-01-06 16:33:58.804] [INFO] ci - [echo]  support_x86_64bit  :: false
+[2023-01-06 16:33:58.811] [INFO] ci - [echo] konyapp.dir = C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 16:33:58.812] [INFO] ci - [echo] isIncrementalBuild = true
+[2023-01-06 16:33:58.815] [INFO] ci - [echo] isUniversalApp = false
+[2023-01-06 16:33:58.817] [INFO] ci - [echo] resources.common.folder ... common
+[2023-01-06 16:33:58.817] [INFO] ci - [echo] resources.platform.folder ... mobile/native/android
+[2023-01-06 16:33:58.819] [INFO] ci - [echo] automation mode false
+[2023-01-06 16:33:58.834] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\additional.properties
+[2023-01-06 16:33:58.838] [INFO] ci - copyjar:
+[2023-01-06 16:33:58.839] [INFO] ci - [echo] isIncrementalBuild = true and appdir.present = true
+[2023-01-06 16:33:58.844] [INFO] ci - [unjar] Expanding: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\codegen.jar into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test
+[2023-01-06 16:34:02.115] [INFO] ci - copyextlibs:
+[2023-01-06 16:34:02.116] [INFO] ci - [echo] Copying extlibs ... dev.language = js
+[2023-01-06 16:34:02.116] [INFO] ci - [echo] networktrustconfig = None
+[2023-01-06 16:34:02.117] [INFO] ci - [echo] Copying Vulkan libs
+[2023-01-06 16:34:02.120] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:02.157] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 16:34:02.191] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 16:34:02.265] [INFO] ci - bundle-features:
+[2023-01-06 16:34:02.284] [INFO] ci - [copy] Copying 56 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:04.019] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 16:34:04.089] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\kony-video-widget.jar
+[2023-01-06 16:34:04.090] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:04.120] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:04.158] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:04.188] [INFO] ci - convertAppidInLowerCase:
+[2023-01-06 16:34:04.191] [INFO] ci - gen:
+[2023-01-06 16:34:04.192] [INFO] ci - [echo] Building android source code
+[2023-01-06 16:34:04.197] [INFO] ci - [echo] The value of packagename is com.orgname.Test
+[2023-01-06 16:34:04.197] [INFO] ci - [echo] Creating package path: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/src/com//orgname//Test
+[2023-01-06 16:34:04.201] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\com\orgname\Test
+[2023-01-06 16:34:04.641] [INFO] ci - [echo]  usegoogleplaylocationservices: false
+[2023-01-06 16:34:04.657] [INFO] ci - configure-play-auth-dependent-features:
+[2023-01-06 16:34:04.798] [INFO] ci - addGoogleMapEntries:
+[2023-01-06 16:34:04.802] [INFO] ci - [echo] The value of googlemapv2key is empty
+[2023-01-06 16:34:04.803] [INFO] ci - [echo]  MapV2 Metadata-Key:  
+     [echo]  MapV2 Permissions:
+[2023-01-06 16:34:04.889] [INFO] ci - addHuaweiMobileServicesEntries:
+[2023-01-06 16:34:04.890] [INFO] ci - [echo]  useHuaweiMapAndLocationServices  :: false
+     [echo]  useHuaweiPushService  :: false
+[2023-01-06 16:34:05.266] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\com\orgname\Test
+[2023-01-06 16:34:05.864] [INFO] ci - [echo] The value of andmanifesttags is
+[2023-01-06 16:34:05.865] [INFO] ci - [echo] The value of andapplicationtags is
+[2023-01-06 16:34:05.949] [INFO] ci - [echo] The value of activity_child_tags is
+[2023-01-06 16:34:05.950] [INFO] ci - [echo] appShortcutsMetaData :
+[2023-01-06 16:34:05.989] [INFO] ci - [echo] The value of andapplicationattrs is
+[2023-01-06 16:34:05.989] [INFO] ci - [echo] The value of ismipmapicon is ${ismipmapicon}
+[2023-01-06 16:34:05.990] [INFO] ci - [echo] Setting drawable icon:
+[2023-01-06 16:34:06.037] [INFO] ci - [echo] The value of manifest_tag_attrs is
+[2023-01-06 16:34:06.091] [INFO] ci - [echo] The value of activityattrs is
+[2023-01-06 16:34:06.140] [INFO] ci - makeLauncherChanges:
+[2023-01-06 16:34:06.140] [INFO] ci - [echo] useHeadlessLauncherActivity:${useHeadlessLauncherActivity}
+     [echo] useCustomHeadlessLauncherActivity:${useCustomHeadlessLauncherActivity}
+[2023-01-06 16:34:06.141] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\APPIDHeadlessLauncherActivity.java
+[2023-01-06 16:34:06.226] [INFO] ci - [echo] Min SDK version: minSdkVersion 27
+[2023-01-06 16:34:06.226] [INFO] ci - [echo] Max SDK version:
+[2023-01-06 16:34:06.227] [INFO] ci - [echo] Target SDK version: targetSdkVersion 31
+[2023-01-06 16:34:06.304] [INFO] ci - [echo] splashOrientationClassifier: ${splashOrientationClassifier}
+[2023-01-06 16:34:06.306] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is defined in application manifest entry:  false
+[2023-01-06 16:34:06.306] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is added by location listener type: false 
+     [echo] enableBatteryOptimizationAPI is defined in androidbuild.properties file : ${enableBatteryOptimizationAPI}
+[2023-01-06 16:34:06.307] [INFO] ci - [echo] useExternalBouncyCastleLibrary is defined in androidbuild.properties file : ${useExternalBouncyCastleLibrary}
+[2023-01-06 16:34:06.353] [INFO] ci - [echo] enablepushnotifications false
+[2023-01-06 16:34:06.354] [INFO] ci - [echo] enablefcmpushnotifications false
+     [echo] customgcmbroadcastreceiver ${customgcmbroadcastreceiver}
+     [echo] customfcmservice ${customfcmservice}
+[2023-01-06 16:34:06.354] [INFO] ci - [echo] FCM GCM
+[2023-01-06 16:34:06.355] [INFO] ci - [echo] Push Notification Permissions:
+[2023-01-06 16:34:06.355] [INFO] ci - [echo] Push Notification Intent Filters:
+[2023-01-06 16:34:06.356] [INFO] ci - [echo] Push Notification Intent Receiver: 
+     [echo] Kony Local Service:
+[2023-01-06 16:34:06.356] [INFO] ci - 
+[2023-01-06 16:34:06.767] [INFO] ci - [echo] push_notification_type.local 0
+[2023-01-06 16:34:06.959] [INFO] ci - [echo] application childtags does not contain  com.konylabs.api.wearable.KonyWearableListenerService
+[2023-01-06 16:34:06.960] [INFO] ci - [echo] watch_background_listener_service =
+[2023-01-06 16:34:07.077] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\deeplinkdata.txt
+[2023-01-06 16:34:07.079] [INFO] ci - [echo] Any Density: android:anyDensity ="true"
+[2023-01-06 16:34:07.080] [INFO] ci - [echo] Small Screen: android:smallScreens ="true" 
+     [echo] Normal Screen: android:normalScreens ="true"
+[2023-01-06 16:34:07.080] [INFO] ci - [echo] Large Screen: android:largeScreens ="true"
+[2023-01-06 16:34:07.080] [INFO] ci - [echo] xLarge Screen: android:xlargeScreens ="true"
+[2023-01-06 16:34:07.080] [INFO] ci - [echo] Resizable:
+[2023-01-06 16:34:07.188] [INFO] ci - [echo] Install location not defined
+[2023-01-06 16:34:07.225] [INFO] ci - [echo] Permissions set:
+[2023-01-06 16:34:07.226] [INFO] ci - [echo]  <uses-permission android:name="android.permission.INTERNET"/>
+     [echo]  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+[2023-01-06 16:34:07.465] [INFO] ci - [echo]  LOCAL Notification Permissions:
+[2023-01-06 16:34:07.465] [INFO] ci - [echo]  LOCAL Notification Intent Filters:  
+     [echo]  LOCAL Notification Intent Receiver:
+[2023-01-06 16:34:08.277] [INFO] ci - [echo] Google-Pay  :: false
+[2023-01-06 16:34:08.350] [INFO] ci - [echo] useMLImageClassifier  :: ${useMLImageClassifier}
+[2023-01-06 16:34:08.807] [INFO] ci - [echo] build_gradle_attrs_prefix =
+[2023-01-06 16:34:08.854] [INFO] ci - [echo] build_gradle_attrs_suffix =
+[2023-01-06 16:34:08.901] [INFO] ci - [echo] gradle_properties_attrs =
+[2023-01-06 16:34:08.903] [INFO] ci - [echo] gradle_properties_attrs =
+[2023-01-06 16:34:09.111] [INFO] ci - cleanupgradle:
+[2023-01-06 16:34:09.226] [INFO] ci - checkAndIncludeReactNative:
+[2023-01-06 16:34:09.226] [INFO] ci - [echo] enableReactNative :: ${enableReactNative}
+[2023-01-06 16:34:09.451] [INFO] ci - copyassets:
+[2023-01-06 16:34:09.451] [INFO] ci - [echo] Copying the resources to android assets
+     [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 16:34:09.513] [INFO] ci - [echo] DefaultLocale = ${DefaultLocale}
+[2023-01-06 16:34:09.572] [INFO] ci - writeMainActivityFullNameToAppPropertiesFile:
+[2023-01-06 16:34:09.573] [INFO] ci - [echo] isRelativeClass inside writeAppID.. :${isRelativeClassName}
+     [echo] mainActivityFullyQualifiedName:com.orgname.Test.Test
+[2023-01-06 16:34:09.589] [INFO] ci - [propertyfile] Creating new property file: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\additional.properties
+[2023-01-06 16:34:09.652] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 16:34:09.733] [INFO] ci - Trying to override old definition of task escapejssource
+[2023-01-06 16:34:09.801] [INFO] ci - copy-appsrc:
+[2023-01-06 16:34:09.877] [INFO] ci - compress:
+[2023-01-06 16:34:09.878] [INFO] ci - [echo] Compressing the android Test application
+[2023-01-06 16:34:09.878] [INFO] ci - [delete] Deleting directory C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification
+[2023-01-06 16:34:09.923] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification
+[2023-01-06 16:34:09.925] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\startup
+[2023-01-06 16:34:09.928] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\startup
+[2023-01-06 16:34:09.957] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 16:34:09.960] [INFO] ci - [copy] Copying 9 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 16:34:10.331] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\default
+[2023-01-06 16:34:10.334] [INFO] ci - [copy] Copying 6 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\default
+[2023-01-06 16:34:10.558] [INFO] ci - [echo] enableawssdk = false
+[2023-01-06 16:34:10.559] [INFO] ci - [echo]  awssdkfileloc = ${awssdkfileloc}
+[2023-01-06 16:34:10.559] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\extres
+[2023-01-06 16:34:10.571] [INFO] ci - [copy] Copying 5 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\extres
+[2023-01-06 16:34:11.094] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.132] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSampleRowTemplate.js.zip
+[2023-01-06 16:34:11.144] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.147] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.149] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSampleRowTemplateController.js.zip
+[2023-01-06 16:34:11.149] [INFO] ci - 
+[2023-01-06 16:34:11.150] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.151] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup\frmMain.js.zip
+[2023-01-06 16:34:11.155] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.156] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\applicationController.js.zip
+[2023-01-06 16:34:11.159] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup\frmMainController.js.zip
+[2023-01-06 16:34:11.161] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.162] [INFO] ci - 
+[2023-01-06 16:34:11.165] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.195] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSectionHeaderTemplateController.js.zip
+
+zip_individual_files:
+      [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSectionHeaderTemplate.js.zip
+[2023-01-06 16:34:11.208] [INFO] ci - zip_individual_files:
+[2023-01-06 16:34:11.209] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation\NavigationModel.js.zip
+[2023-01-06 16:34:11.212] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation\NavigationController.js.zip
+[2023-01-06 16:34:11.215] [INFO] ci - 
+[2023-01-06 16:34:11.219] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup
+[2023-01-06 16:34:11.224] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 16:34:11.320] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 16:34:11.321] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 16:34:11.322] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 16:34:11.332] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup
+[2023-01-06 16:34:11.341] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 16:34:11.384] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation
+[2023-01-06 16:34:11.398] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation
+[2023-01-06 16:34:11.409] [INFO] ci - [delete] Deleting directory C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 16:34:11.435] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 16:34:11.512] [INFO] ci - copy-webassets:
+[2023-01-06 16:34:11.512] [INFO] ci - [echo] Copying the web assets from C:/Users/2154743/VisualizerWorkspace/Test
+[2023-01-06 16:34:11.572] [INFO] ci - gen-ffi-loading:
+[2023-01-06 16:34:11.651] [INFO] ci - zip-common-jslibs:
+[2023-01-06 16:34:11.657] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\common-jslibs.kfm
+[2023-01-06 16:34:11.790] [INFO] ci - [zip] Updating zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\common-jslibs.kfm
+[2023-01-06 16:34:11.901] [INFO] ci - zip-paas-jslib:
+[2023-01-06 16:34:11.907] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\paas.kfm
+[2023-01-06 16:34:12.014] [INFO] ci - zip-workerthreads:
+[2023-01-06 16:34:12.068] [INFO] ci - gen-zip-files:
+[2023-01-06 16:34:12.111] [INFO] ci - gen-js-zip-files:
+[2023-01-06 16:34:12.113] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\startup.js
+[2023-01-06 16:34:12.202] [INFO] ci - [zip] Updating zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\startup.js
+[2023-01-06 16:34:12.299] [INFO] ci - [copy] Copying 9 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 16:34:12.863] [INFO] ci - encrypt-zip-files:
+[2023-01-06 16:34:12.868] [INFO] ci - [touch] Creating C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 16:34:14.755] [INFO] ci - [exec]
+[2023-01-06 16:34:14.755] [INFO] ci - [exec] Execution time = 0.000000
+[2023-01-06 16:34:14.760] [INFO] ci - [echo] 
+     [echo]  exit Code:=0
+[2023-01-06 16:34:14.761] [INFO] ci - 
+[2023-01-06 16:34:14.817] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 16:34:14.824] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 16:34:14.829] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\AppGroup
+[2023-01-06 16:34:14.835] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\AppGroup
+[2023-01-06 16:34:14.842] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 16:34:14.851] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 16:34:14.857] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 16:34:14.862] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 16:34:14.869] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 16:34:14.877] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\navigation
+[2023-01-06 16:34:14.882] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\navigation
+[2023-01-06 16:34:14.888] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 16:34:14.895] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 16:34:14.969] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\fonts
+[2023-01-06 16:34:15.002] [INFO] ci - [echo] Copying theme files
+[2023-01-06 16:34:15.003] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 16:34:15.030] [INFO] ci - [echo] hybridmode..........native
+[2023-01-06 16:34:15.041] [INFO] ci - copynativeresources:
+[2023-01-06 16:34:15.042] [INFO] ci - [echo] Copying the native resources to android assets
+[2023-01-06 16:34:15.050] [INFO] ci - [copy] Copying 29 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\res\drawable
+[2023-01-06 16:34:15.902] [INFO] ci - [copy] Warning: C:\Users\2154743\VisualizerWorkspace\Test\resources\common\videos does not exist.
+[2023-01-06 16:34:16.756] [INFO] ci - [java] XMLMerging Started sourceFolderPath = C:/Users/2154743/VisualizerWorkspace/Test/resources/mobile/native/android destFolderPath = C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/resNo of Files to merge = 4
+     [java] XMLMerging Completed
+[2023-01-06 16:34:16.775] [INFO] ci - copyninepatchimages:
+[2023-01-06 16:34:16.775] [INFO] ci - [echo] Copying the nine patch images and delete the actual png image in android drawable folder
+[2023-01-06 16:34:16.787] [INFO] ci - check-for-actual-png-file:
+[2023-01-06 16:34:16.797] [INFO] ci - check-for-actual-png-file:
+[2023-01-06 16:34:16.804] [INFO] ci - renamelaunchericon:
+[2023-01-06 16:34:16.807] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\res\drawable
+[2023-01-06 16:34:16.834] [INFO] ci - [echo] Copying third party libraries
+[2023-01-06 16:34:16.844] [INFO] ci - [copy] Copying 7 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:17.013] [INFO] ci - [echo] Copying ffi templates to src folder
+[2023-01-06 16:34:17.016] [INFO] ci - [copy] Copying 2 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src
+[2023-01-06 16:34:17.093] [INFO] ci - [echo] No custom widget libraries found
+[2023-01-06 16:34:17.094] [INFO] ci - [echo] thirdparty dir::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip,C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip,C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip
+[2023-01-06 16:34:17.095] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip
+[2023-01-06 16:34:17.097] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_FileStorage-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:17.110] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip
+[2023-01-06 16:34:17.111] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_SDKCommons-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:17.188] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip
+[2023-01-06 16:34:17.189] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_SyncV2-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 16:34:17.232] [INFO] ci - precompile:
+[2023-01-06 16:34:17.232] [INFO] ci - [echo] No precompile task present
+[2023-01-06 16:34:17.232] [INFO] ci - CheckForLicenses:
+[2023-01-06 16:34:17.237] [INFO] ci - init:
+[2023-01-06 16:34:17.295] [INFO] ci - CreateLicenseIfNotExist:
+[2023-01-06 16:34:17.301] [INFO] ci - checkForInputs:
+[2023-01-06 16:34:17.302] [INFO] ci - [echo]  current directory C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.android\luaandroid\extres
+[2023-01-06 16:34:17.302] [INFO] ci - [echo] CreateLicenseIfNotExist called
+[2023-01-06 16:34:17.303] [INFO] ci - [echo] license exists true
+[2023-01-06 16:34:17.309] [INFO] ci - update_license_if_already_exist:
+[2023-01-06 16:34:17.342] [INFO] ci - gradleTask:
+[2023-01-06 16:34:17.343] [INFO] ci - configureReleaseSignInfo:
+[2023-01-06 16:34:17.343] [INFO] ci - compile:
+[2023-01-06 16:34:17.357] [INFO] ci - calculateChecksum:
+[2023-01-06 16:34:17.370] [INFO] ci - Trying to override old definition of task escapejssource
+[2023-01-06 16:34:17.441] [INFO] ci - encrypt-assets-hash-file:
+[2023-01-06 16:34:17.442] [INFO] ci - 
+[2023-01-06 16:34:18.379] [INFO] ci - [java]
+[2023-01-06 16:34:18.391] [INFO] ci - [java] Total Time Taken: 299
+[2023-01-06 16:34:18.446] [INFO] ci - encrypt-zip-files:
+[2023-01-06 16:34:18.447] [INFO] ci - [touch] Creating C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 16:34:19.553] [INFO] ci - [exec] 
+     [exec] Execution time = 0.000000
+[2023-01-06 16:34:19.556] [INFO] ci - [echo]
+[2023-01-06 16:34:19.557] [INFO] ci - [echo]  exit Code:=0
+[2023-01-06 16:34:19.596] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 16:34:19.601] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 16:34:19.606] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 16:34:19.614] [INFO] ci - buildapk:
+[2023-01-06 16:34:19.614] [INFO] ci - [echo] Java Path used by Gradle: C:/Program Files/Java/jdk1.8.0_311
+     [echo] Gradle Path :
+[2023-01-06 16:34:19.614] [INFO] ci - [echo] Packaging the android Test application
+[2023-01-06 16:34:19.615] [INFO] ci - [echo] Substituting drive
+[2023-01-06 16:34:20.327] [INFO] ci - [java] Substituting DriveSubstituting DriveRunning command =SUBST A: "C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/.."
+[2023-01-06 16:34:20.921] [INFO] ci - [java] 
+     [java] Process Exit status = 0
+[2023-01-06 16:34:20.922] [INFO] ci - [java] Success. Drive Substituted and UniqCodeFile [A:\Test\Test-Mobile-20230106163400019.txt] found.
+[2023-01-06 16:34:20.924] [INFO] ci - [echo] subst-drive length 1 A
+[2023-01-06 16:34:20.924] [INFO] ci - [echo] app-build.dir is  A:\Test
+     [echo] isInternetConnectionAvailable ${isInternetConnectionAvailable}
+[2023-01-06 16:34:20.925] [INFO] ci - [echo] plugin loc C:/Users/2154743/VisualizerWorkspace/bundles/com.pat.tool.keditor
+[2023-01-06 16:34:20.925] [INFO] ci - [echo] A:\Test/gradlew -version
+[2023-01-06 16:34:20.927] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@1725dc0f
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 16:34:20.927] [INFO] ci - [exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Test/gradlew" -version"
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 16:34:22.618] [INFO] ci - [exec-shell] 
+[exec-shell] ------------------------------------------------------------
+[exec-shell] Gradle 6.7.1
+[exec-shell] ------------------------------------------------------------
+[2023-01-06 16:34:22.619] [INFO] ci - [exec-shell] 
+[exec-shell] Build time:   2020-11-16 17:09:24 UTC
+[exec-shell] Revision:     2972ff02f3210d2ceed2f1ea880f026acfbab5c0
+[exec-shell] 
+[exec-shell] Kotlin:       1.3.72
+[exec-shell] Groovy:       2.5.12
+[exec-shell] Ant:          Apache Ant(TM) version 1.10.8 compiled on May 10 2020
+[exec-shell] JVM:          1.8.0_311 (Oracle Corporation 25.311-b11)
+[exec-shell] OS:           Windows 10 10.0 amd64
+[exec-shell]
+[2023-01-06 16:34:22.621] [INFO] ci - [delete] Deleting: A:\Test\outputAPKVariants.properties
+[2023-01-06 16:34:22.625] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@2145b572
+[exec-shell]
+[2023-01-06 16:34:22.626] [INFO] ci - [exec-shell] ***********cmd.exe
+[exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Test/gradlew" assembleRelease  -b "A:\Test/build.gradle""
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 16:34:30.621] [INFO] ci - [exec-shell]
+[2023-01-06 16:34:30.622] [INFO] ci - 
+[2023-01-06 16:34:30.622] [INFO] ci - [exec-shell] > Configure project :
+[exec-shell] WARNING:: The option setting 'android.enableR8=false' is deprecated.
+[exec-shell] It will be removed in version 7.0 of the Android Gradle plugin.
+[exec-shell] You will no longer be able to disable R8
+[2023-01-06 16:34:33.476] [INFO] ci - [exec-shell] debug=A:\Test\build\outputs\apk\debug\Test-debug.apk
+[exec-shell] release=A:\Test\build\outputs\apk\release\Test-release-unsigned.apk
+[2023-01-06 16:34:33.576] [INFO] ci - [exec-shell] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+[exec-shell] Currently detected usages:
+[2023-01-06 16:34:33.577] [INFO] ci - [exec-shell] - repository flatDir used in: root project 'Test'
+[exec-shell] WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+[exec-shell] This repository is deprecated and it will be shut down in the future.
+[exec-shell] See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+[exec-shell] Currently detected usages in: root project 'Test'
+[2023-01-06 16:34:36.768] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :preBuild UP-TO-DATE
+[exec-shell] > Task :preReleaseBuild UP-TO-DATE
+[2023-01-06 16:34:36.769] [INFO] ci - [exec-shell] > Task :compileReleaseAidl NO-SOURCE
+[2023-01-06 16:34:40.283] [INFO] ci - [exec-shell]
+[2023-01-06 16:34:40.283] [INFO] ci - [exec-shell] warning: Linking two modules of different target triples: C:\Users\2154743\AppData\Local\Android\sdk\build-tools\30.0.2\renderscript\lib\bc\arm64-v8a\libclcore.bc' is 'aarch64--linux-android' whereas 'A:\Test\build\generated\res\rs\release\raw\bc64\convolve.bc' is 'aarch64-none-linux-gnueabi'
+[exec-shell] 
+[exec-shell] > Task :compileReleaseRenderscript
+[exec-shell]
+[2023-01-06 16:34:40.386] [INFO] ci - [exec-shell] warning: Linking two modules of different target triples: C:\Users\2154743\AppData\Local\Android\sdk\build-tools\30.0.2\renderscript\lib\bc\arm64-v8a\libclcore.bc' is 'aarch64--linux-android' whereas 'A:\Test\build\generated\res\rs\release\raw\bc64\brightness.bc' is 'aarch64-none-linux-gnueabi'
+[exec-shell] 
+[exec-shell]
+[2023-01-06 16:34:40.502] [INFO] ci - [exec-shell] warning: Linking two modules of different target triples: C:\Users\2154743\AppData\Local\Android\sdk\build-tools\30.0.2\renderscript\lib\bc\arm64-v8a\libclcore.bc' is 'aarch64--linux-android' whereas 'A:\Test\build\generated\res\rs\release\raw\bc64\colorclamp.bc' is 'aarch64-none-linux-gnueabi'
+[exec-shell]
+[2023-01-06 16:34:40.503] [INFO] ci - [exec-shell]
+[2023-01-06 16:34:42.345] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :generateReleaseBuildConfig
+[exec-shell] > Task :javaPreCompileRelease
+[exec-shell] > Task :writeReleaseApplicationId
+[2023-01-06 16:34:42.345] [INFO] ci - [exec-shell] > Task :analyticsRecordingRelease
+[2023-01-06 16:34:42.558] [INFO] ci - [exec-shell] > Task :generateReleaseResValues
+[exec-shell] > Task :checkReleaseAarMetadata
+[exec-shell] > Task :generateReleaseResources
+[2023-01-06 16:35:12.568] [INFO] ci - [exec-shell] > Task :mergeReleaseResources
+[2023-01-06 16:35:12.569] [INFO] ci - 
+[2023-01-06 16:35:19.495] [INFO] ci - [exec-shell] > Task :createReleaseCompatibleScreenManifests
+[exec-shell] > Task :extractDeepLinksRelease
+[2023-01-06 16:35:20.769] [INFO] ci - [exec-shell]
+[2023-01-06 16:35:20.769] [INFO] ci - 
+[2023-01-06 16:35:20.770] [INFO] ci - [exec-shell] > Task :processReleaseMainManifest
+[2023-01-06 16:35:20.770] [INFO] ci - [exec-shell] [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\2154743\.gradle\caches\transforms-2\files-2.1\ae47afe465c548b174dec2b28fc65fd8\vectordrawable-animated-1.0.0\AndroidManifest.xml Warning:
+[exec-shell] 	Package name 'androidx.vectordrawable' used in: androidx.vectordrawable:vectordrawable-animated:1.0.0, androidx.vectordrawable:vectordrawable:1.0.1.
+[exec-shell] A:\Test\AndroidManifest.xml:52:2-92 Warning:
+[exec-shell] 	Element uses-permission#android.permission.ACCESS_NETWORK_STATE at AndroidManifest.xml:52:2-92 duplicated with element declared at AndroidManifest.xml:50:2-75
+[exec-shell] A:\Test\AndroidManifest.xml:6:5-45:16 Warning:
+[exec-shell] 	application@tools:supportsRtl was tagged at AndroidManifest.xml:6 to remove other declarations but no other declaration present
+[2023-01-06 16:35:20.770] [INFO] ci - [exec-shell] A:\Test\AndroidManifest.xml:6:5-45:16 Warning:
+[exec-shell] 	application@tools:icon was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+[2023-01-06 16:35:22.921] [INFO] ci - [exec-shell]
+[2023-01-06 16:35:22.922] [INFO] ci - [exec-shell] > Task :processReleaseManifest
+[2023-01-06 16:35:23.725] [INFO] ci - [exec-shell] > Task :processReleaseManifestForPackage
+[2023-01-06 16:35:23.726] [INFO] ci - 
+[2023-01-06 16:35:32.917] [INFO] ci - [exec-shell] > Task :mergeReleaseJniLibFolders
+[2023-01-06 16:35:33.585] [INFO] ci - [exec-shell] > Task :mergeReleaseShaders
+[2023-01-06 16:35:33.588] [INFO] ci - 
+[2023-01-06 16:35:33.588] [INFO] ci - [exec-shell] > Task :compileReleaseShaders NO-SOURCE
+[2023-01-06 16:35:33.589] [INFO] ci - 
+[2023-01-06 16:35:33.590] [INFO] ci - [exec-shell] > Task :generateReleaseAssets UP-TO-DATE
+[2023-01-06 16:35:33.591] [INFO] ci - 
+[2023-01-06 16:35:35.717] [INFO] ci - [exec-shell] > Task :mergeReleaseAssets
+[2023-01-06 16:35:35.718] [INFO] ci - 
+[2023-01-06 16:35:37.160] [INFO] ci - [exec-shell] > Task :checkReleaseDuplicateClasses
+[2023-01-06 16:35:38.810] [INFO] ci - [exec-shell] > Task :compressReleaseAssets
+[2023-01-06 16:35:38.811] [INFO] ci - 
+[2023-01-06 16:35:39.147] [INFO] ci - [exec-shell] > Task :processReleaseJavaRes
+[2023-01-06 16:35:57.795] [INFO] ci - [exec-shell] > Task :collectReleaseDependencies
+[2023-01-06 16:35:57.796] [INFO] ci - 
+[2023-01-06 16:36:02.975] [INFO] ci - [exec-shell] > Task :processReleaseResources
+[2023-01-06 16:36:02.981] [INFO] ci - 
+[2023-01-06 16:36:03.394] [INFO] ci - [exec-shell] > Task :mergeReleaseNativeLibs
+[2023-01-06 16:36:03.395] [INFO] ci - 
+[2023-01-06 16:36:07.277] [INFO] ci - [exec-shell] > Task :desugarReleaseFileDependencies
+[2023-01-06 16:36:07.278] [INFO] ci - 
+[2023-01-06 16:36:08.530] [INFO] ci - [exec-shell] > Task :sdkReleaseDependencyData
+[2023-01-06 16:36:08.920] [INFO] ci - [exec-shell] > Task :writeReleaseAppMetadata
+[2023-01-06 16:36:09.264] [INFO] ci - [exec-shell] > Task :mergeReleaseJavaResource
+[2023-01-06 16:36:09.265] [INFO] ci - 
+[2023-01-06 16:36:10.026] [INFO] ci - [exec-shell] > Task :writeReleaseSigningConfigVersions
+[2023-01-06 16:36:10.030] [INFO] ci - 
+[2023-01-06 16:36:37.281] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :stripReleaseDebugSymbols
+[2023-01-06 16:36:37.281] [INFO] ci - [exec-shell] Unable to strip the following libraries, packaging them as they are: libRSSupport.so, libc++_shared.so, libkonyjsvm.so, librs.brightness.so, librs.colorclamp.so, librs.convolve.so, librsjni.so, librsjni_androidx.so, libvulkan_wrapper.so.
+[2023-01-06 16:36:37.690] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :extractReleaseNativeSymbolTables
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\libc++_shared.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\libkonyjsvm.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\librs.brightness.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\librs.colorclamp.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\librs.convolve.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\librsjni.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[2023-01-06 16:36:37.691] [INFO] ci - [exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\librsjni_androidx.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\libRSSupport.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\arm64-v8a\libvulkan_wrapper.so because unable to locate the objcopy executable for the arm64-v8a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\armeabi-v7a\librsjni.so because unable to locate the objcopy executable for the armeabi-v7a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\armeabi-v7a\librsjni_androidx.so because unable to locate the objcopy executable for the armeabi-v7a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\armeabi-v7a\libRSSupport.so because unable to locate the objcopy executable for the armeabi-v7a ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\x86\librsjni.so because unable to locate the objcopy executable for the x86 ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\x86\librsjni_androidx.so because unable to locate the objcopy executable for the x86 ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\x86\libRSSupport.so because unable to locate the objcopy executable for the x86 ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\x86_64\librsjni.so because unable to locate the objcopy executable for the x86_64 ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\x86_64\librsjni_androidx.so because unable to locate the objcopy executable for the x86_64 ABI.
+[exec-shell] Unable to extract native debug metadata from A:\Test\build\intermediates\merged_native_libs\release\out\lib\x86_64\libRSSupport.so because unable to locate the objcopy executable for the x86_64 ABI.
+[exec-shell] 
+[exec-shell] > Task :mergeReleaseNativeDebugMetadata NO-SOURCE
+[2023-01-06 16:36:39.688] [INFO] ci - [exec-shell] > Task :mergeExtDexRelease
+[2023-01-06 16:36:39.689] [INFO] ci - 
+[2023-01-06 16:36:41.645] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :compileReleaseJavaWithJavac
+[2023-01-06 16:36:41.645] [INFO] ci - [exec-shell] Note: Some input files use unchecked or unsafe operations.
+[exec-shell] Note: Recompile with -Xlint:unchecked for details.
+[2023-01-06 16:36:41.861] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :compileReleaseSources
+[2023-01-06 16:36:44.489] [INFO] ci - [exec-shell] w: Runtime JAR files in the classpath have the version 1.3, which is older than the API version 1.4. Consider using the runtime of version 1.4, or pass '-api-version 1.3' explicitly to restrict the available APIs to the runtime of version 1.3. You can also pass '-language-version 1.3' instead, which will restrict not only the APIs to the specified version, but also the language features
+[2023-01-06 16:36:44.489] [INFO] ci - [exec-shell] > Task :lintVitalRelease
+[exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.3.61\70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066\kotlin-stdlib-jdk7-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.61\4702105e97f7396ae41b113fdbdc180ec1eb1e36\kotlin-stdlib-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.61\65abb71d5afb850b68be03987b08e2c864ca3110\kotlin-stdlib-common-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[exec-shell]
+[2023-01-06 16:36:58.160] [INFO] ci - [exec-shell]
+[2023-01-06 16:36:58.161] [INFO] ci - 
+[2023-01-06 16:36:58.162] [INFO] ci - [exec-shell] > Task :dexBuilderRelease
+[2023-01-06 16:37:00.447] [INFO] ci - [exec-shell] > Task :mergeDexRelease
+[2023-01-06 16:37:01.427] [INFO] ci - [exec-shell] > Task :optimizeReleaseResources
+[2023-01-06 16:37:02.627] [INFO] ci - [exec-shell] > Task :packageRelease
+[2023-01-06 16:37:02.627] [INFO] ci - [exec-shell] > Task :assembleRelease
+[2023-01-06 16:37:02.736] [INFO] ci - [exec-shell] 
+[exec-shell] BUILD SUCCESSFUL in 2m 38s
+[2023-01-06 16:37:02.736] [INFO] ci - [exec-shell] 36 actionable tasks: 36 executed
+[2023-01-06 16:37:18.526] [INFO] ci - signApk:
+[2023-01-06 16:37:18.526] [INFO] ci - [echo] Release apk signing started.
+[2023-01-06 16:37:18.528] [INFO] ci - [copy] Copying 1 file to A:\Test\build\outputs\apk\debug
+[2023-01-06 16:37:18.608] [INFO] ci - [echo] Invoking APKSigner.jar to sign apk
+[2023-01-06 16:37:19.853] [INFO] ci - [java] Getting .andorid folder location
+     [java] Checking key folder Path = C:\Users\2154743\.android
+[2023-01-06 16:37:19.854] [INFO] ci - [java] Debug key exists at C:\Users\2154743\.android\debug.keystore
+     [java] Debug Key not expired
+     [java] Signing the Apk=A://Test//build//outputs//apk//debug//Test-debug.apk with debugkey=C:\Users\2154743\.android\debug.keystore
+     [java] Running command =C:/Users/2154743/AppData/Local/Android/sdk\build-tools\30.0.2\apksigner.bat sign --ks C:\Users\2154743\.android\debug.keystore --ks-pass pass:android --key-pass pass:android --ks-key-alias androiddebugkey A://Test//build//outputs//apk//debug//Test-debug.apk
+[2023-01-06 16:37:22.712] [INFO] ci - [java] 
+     [java] Process Exit status = 0
+[2023-01-06 16:37:22.712] [INFO] ci - [java] Signed the Apk=A://Test//build//outputs//apk//debug//Test-debug.apk	using debugkey=C:\Users\2154743\.android\debug.keystore
+[2023-01-06 16:37:22.787] [INFO] ci - protectedBinaryFinalisation:
+[2023-01-06 16:37:22.788] [INFO] ci - [echo] Preparing finalisation is protected :: release     and is LibraryMode:: false
+
+publish:
+[2023-01-06 16:37:22.789] [INFO] ci - [echo] Preparing the package for publish
+[2023-01-06 16:37:22.791] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist
+[2023-01-06 16:37:24.060] [INFO] ci - [java] unSubstituting DriveUnsubstituting Drive ARunning command =SUBST A: /d
+[2023-01-06 16:37:24.842] [INFO] ci - [java] 
+     [java] Process Exit status = 0
+[2023-01-06 16:37:24.846] [INFO] ci - [java] Unsubstitution successful for Drive A
+[2023-01-06 16:37:24.846] [INFO] ci - postcompile:
+[2023-01-06 16:37:24.847] [INFO] ci - [echo] No postcompile task present
+[2023-01-06 16:37:24.847] [INFO] ci - all:
+[2023-01-06 16:37:24.848] [INFO] ci - BUILD SUCCESSFUL
+Total time: 3 minutes 26 seconds
+[2023-01-06 16:37:24.935] [INFO] ci - Platform:android , build status : COMPLETED
+[2023-01-06 16:37:25.008] [INFO] ci - Binary successfully copied to C:\Users\2154743\VisualizerWorkspace\Test\binaries\android\Test-release.apk
+[2023-01-06 17:20:51.348] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.6.8
+        -------------------------------
+         node version: v18.1.0
+
+[2023-01-06 17:20:56.246] [DEBUG] ci -  ➠ Pre-build validations
+[2023-01-06 17:20:56.247] [INFO] ci - ✓ ANT_HOME
+[2023-01-06 17:20:56.247] [INFO] ci - ✓ javaloc
+[2023-01-06 17:20:56.248] [INFO] ci - ✓ androidHome
+[2023-01-06 17:20:56.250] [INFO] ci - ✓ java version
+[2023-01-06 17:20:56.250] [INFO] ci - ✓ ant version
+[2023-01-06 17:20:56.250] [INFO] ci - ✓ node version
+[2023-01-06 17:20:56.251] [INFO] ci -  xcode 9.0 - not found
+[2023-01-06 17:20:56.252] [DEBUG] ~~~~ - Close Current Watcher
+[2023-01-06 17:20:56.256] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:20:56.257] [INFO] ~~~~ - Validating project structure using validator template: '9.6'
+[2023-01-06 17:20:56.288] [INFO] ~~~~ - Validating project themes: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:20:56.289] [INFO] ~~~~ - Project dir:  C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:20:56.290] [INFO] ~~~~ - Theme dir, size:  C:\Users\2154743\VisualizerWorkspace\Test\themes\defaultTheme 16
+[2023-01-06 17:20:56.290] [DEBUG] ~~~~ - skip read constants
+[2023-01-06 17:20:56.293] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2023-01-06 17:20:56.295] [INFO] ~~~~ - 
+Project dir:  C:\Users\2154743\VisualizerWorkspace\Test 
+No of uniq skin ids:  15
+[2023-01-06 17:20:56.295] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2023-01-06 17:20:56.297] [INFO] ci - 
+[2023-01-06 17:20:56.299] [INFO] ci - 
+[2023-01-06 17:20:56.300] [INFO] ci - andtargetsdkkey selected is 12.0 (31)
+[2023-01-06 17:20:56.301] [INFO] ci - andtargetsdkkey API level is 31
+[2023-01-06 17:20:56.301] [INFO] ci - andtargetsdkkey selected API Level is 31
+[2023-01-06 17:20:56.301] [INFO] ci - andweartargetsdkkey selected is undefined
+[2023-01-06 17:20:56.302] [DEBUG] ci -  Done... 
+
+[2023-01-06 17:20:56.303] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\Test\projectProperties.json
+[2023-01-06 17:20:56.304] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\config\HeadlessBuild-Default.json
+[2023-01-06 17:20:56.304] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\Test\HeadlessBuild.properties
+[2023-01-06 17:20:56.307] [INFO] ci - Cleaning binaries location...
+[2023-01-06 17:20:56.312] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\Test\binaries\android deleted.
+[2023-01-06 17:20:56.312] [INFO] ci - Cleaning webapps location...
+[2023-01-06 17:20:56.312] [INFO] ci - 
+[2023-01-06 17:20:57.308] [INFO] ci - 
+[2023-01-06 17:21:09.086] [DEBUG] ci - Upgrade native apis...
+[2023-01-06 17:21:09.087] [INFO] ci - NFIs in your project are upto date. No upgrade required.
+[2023-01-06 17:21:09.104] [INFO] ci - ‼︎ Service config is not provided. Skip setting service doc.
+[2023-01-06 17:21:09.104] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 17:21:09.106] [INFO] ci - 
+[2023-01-06 17:21:09.282] [DEBUG] ~~~~ - Delete native framework from workspace
+[2023-01-06 17:21:09.282] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\2154743\VisualizerWorkspace\.nativebindings\nativeapi.json
+[2023-01-06 17:21:09.283] [DEBUG] ~~~~ - Delete native framework from project: /Test/--self--
+[2023-01-06 17:21:09.283] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\2154743\VisualizerWorkspace\Test\nativeapi.json
+[2023-01-06 17:21:09.324] [DEBUG] ~~~~ - Delete native framework from workspace
+[2023-01-06 17:21:09.326] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-14.3 C:\Users\2154743\VisualizerWorkspace\.nativebindings\3.0\nativeapi.json
+[2023-01-06 17:21:09.326] [DEBUG] ~~~~ - Delete native framework from project: /Test/--self--
+[2023-01-06 17:21:09.326] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-14.3 C:\Users\2154743\VisualizerWorkspace\Test\nativeapi.json
+[2023-01-06 17:21:09.327] [DEBUG] ~~~~ - Imported 8 Sync FFI.
+[2023-01-06 17:21:09.327] [INFO] ci - Added default native function APIs.
+[2023-01-06 17:21:09.328] [INFO] ci - 
+[2023-01-06 17:21:09.330] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2023-01-06 17:21:09.330] [INFO] ci - Copying sdk files.
+[2023-01-06 17:21:09.331] [INFO] ci - KonySyncLib.js is not found in SDK plugin.
+[2023-01-06 17:21:09.345] [INFO] ci - SDK file is copied.
+[2023-01-06 17:21:09.346] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 17:21:09.347] [INFO] ci - 
+[2023-01-06 17:21:09.391] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 17:21:09.392] [INFO] ci - 
+[2023-01-06 17:21:09.423] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 17:21:09.425] [INFO] ci - 
+[2023-01-06 17:21:09.442] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 17:21:09.443] [INFO] ci - 
+[2023-01-06 17:21:09.443] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 17:21:09.444] [INFO] ci - 
+[2023-01-06 17:21:09.445] [INFO] ci - Start of command line application build.
+[2023-01-06 17:21:09.445] [INFO] ci - Start of Visulaizer Codegen.
+[2023-01-06 17:21:09.446] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:21:09.446] [INFO] ci - 
+[2023-01-06 17:21:09.447] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2023-01-06 17:21:09.466] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2023-01-06 17:21:09.481] [DEBUG] ~~~~ - Saving forms controller actions for channel: mobile
+[2023-01-06 17:21:09.524] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  maps
+[2023-01-06 17:21:09.525] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  segments
+[2023-01-06 17:21:09.640] [DEBUG] ~~~~ - Saving user widgets controller actions
+[2023-01-06 17:21:09.642] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:21:09.644] [INFO] ~~~~ - Validating project structure using validator template: '9.6'
+[2023-01-06 17:21:09.678] [INFO] ~~~~ - Validating project themes: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:21:09.679] [INFO] ~~~~ - Project dir:  C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:21:09.679] [INFO] ~~~~ - Theme dir, size:  C:\Users\2154743\VisualizerWorkspace\Test\themes\defaultTheme 16
+[2023-01-06 17:21:09.680] [DEBUG] ~~~~ - skip read constants
+[2023-01-06 17:21:09.682] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2023-01-06 17:21:09.682] [INFO] ~~~~ - 
+Project dir:  C:\Users\2154743\VisualizerWorkspace\Test 
+No of uniq skin ids:  15
+[2023-01-06 17:21:09.682] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2023-01-06 17:21:09.684] [INFO] ci - End of Visulaizer Codegen.
+[2023-01-06 17:21:09.687] [DEBUG] ~~~~ - [BUILD] Codegen starts. StartTime: 1673005869687
+[2023-01-06 17:21:09.801] [INFO] ~~~~ - <---Codegeneration Started--->
+[2023-01-06 17:21:09.822] [DEBUG] ~~~~ - NO SUCH DIRECTORY TO CLEAN: C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android
+[2023-01-06 17:21:09.825] [DEBUG] ~~~~ - [BUILD] Code generation for android
+[2023-01-06 17:21:09.826] [DEBUG] ~~~~ - Scripts output directory C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android\src
+[2023-01-06 17:21:10.314] [DEBUG] ~~~~ - [BUILD] Codegen ends. endTime: 1673005870314. Time taken (in ms) : 627
+[2023-01-06 17:21:10.314] [DEBUG] ~~~~ - [BUILD] Archiving starts. Start time: 1673005870314
+[2023-01-06 17:21:10.317] [DEBUG] ~~~~ - Web Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android
+[2023-01-06 17:21:10.317] [DEBUG] ~~~~ - SPA Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test
+[2023-01-06 17:21:10.317] [DEBUG] ~~~~ - Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test
+[2023-01-06 17:21:10.318] [DEBUG] ~~~~ - Populating project Test
+[2023-01-06 17:21:10.318] [DEBUG] ~~~~ - USING IDE EVENTS :: true
+[2023-01-06 17:21:11.198] [DEBUG] ~~~~ - Populate Completed
+[2023-01-06 17:21:11.198] [DEBUG] ~~~~ - Building for android
+[2023-01-06 17:21:11.199] [INFO] ~~~~ - Code generation for project 'Test' completed.
+[2023-01-06 17:21:11.199] [DEBUG] ~~~~ - Codegen Status :  { android: 'success' }
+[2023-01-06 17:21:11.568] [DEBUG] ~~~~ - [BUILD] Archiving ends. End time: 1673005871568. Time taken (in ms) : 1254
+[2023-01-06 17:21:11.568] [INFO] ci - [ 'android' ]
+[2023-01-06 17:21:11.572] [INFO] ci - 
+[2023-01-06 17:21:11.582] [INFO] ci - Loaded common properties. 
+[2023-01-06 17:21:11.582] [INFO] ci - Platform:android , build status : STARTED
+[2023-01-06 17:21:11.588] [INFO] ci - Minimum SDK API level is 21
+[2023-01-06 17:21:11.588] [INFO] ci - Target SDK API level is 31
+[2023-01-06 17:21:11.589] [INFO] ci - 
+[2023-01-06 17:21:11.590] [INFO] ci - andminsdkkey API level is 27
+[2023-01-06 17:21:11.595] [INFO] ci - 
+[2023-01-06 17:21:11.706] [INFO] ci - 
+[2023-01-06 17:21:11.710] [INFO] ci - 
+[2023-01-06 17:21:11.897] [INFO] ci - 
+[2023-01-06 17:21:11.905] [INFO] ci - 
+[2023-01-06 17:21:12.034] [INFO] ci - 
+[2023-01-06 17:21:12.054] [INFO] ci - andtargetsdkkey API level is 31
+[2023-01-06 17:21:12.056] [INFO] ci - Loaded properties. android
+[2023-01-06 17:21:12.056] [INFO] ci - Start of build for platform : android
+[2023-01-06 17:21:12.056] [INFO] ci - APPFOLDER C:\Users\2154743\VisualizerWorkspace\temp\Test
+[2023-01-06 17:21:12.056] [INFO] ci -  propFilePath C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties
+[2023-01-06 17:21:12.057] [INFO] ci - Platform:android , build status : INPROGRESS
+[2023-01-06 17:21:12.099] [INFO] ci - Execute task Packageandroid...
+[2023-01-06 17:21:12.099] [INFO] ci -  ANT_HOME: C:\Users\2154743\apache-ant-1.10.8\bin\ant
+[2023-01-06 17:21:12.099] [INFO] ci - -DcmdLinePropertyFile C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties -f C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\build.xml -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\ant-contrib-0.6.jar -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\AntelopeTasks_3.4.0.jar -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\antlr-3.3-complete.jar all
+[2023-01-06 17:21:13.553] [INFO] ci - Buildfile: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\build.xml
+[2023-01-06 17:21:13.889] [INFO] ci - init:
+[2023-01-06 17:21:13.952] [INFO] ci - [echo] property file availble loc: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties
+[2023-01-06 17:21:13.998] [INFO] ci - [echo] isLibraryBuild :: false
+[2023-01-06 17:21:13.999] [INFO] ci - [echo] UseSQLCipherFIPS :: false
+     [echo] UseOpenSSLLibrary :: false
+     [echo] build option :: release
+     [echo] andtargetsdkkey :: 31
+     [echo] donotAddQueryAllPackages:: ${donotAddQueryAllPackages}
+[2023-01-06 17:21:14.002] [INFO] ci - [echo]  support_arm_32bit  :: false
+[2023-01-06 17:21:14.002] [INFO] ci - [echo]  support_arm_64bit  :: true
+     [echo]  support_x86_32bit  :: false
+     [echo]  support_x86_64bit  :: false
+[2023-01-06 17:21:14.012] [INFO] ci - [echo] konyapp.dir = C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 17:21:14.013] [INFO] ci - [echo] isIncrementalBuild = true
+[2023-01-06 17:21:14.016] [INFO] ci - [echo] isUniversalApp = false
+[2023-01-06 17:21:14.019] [INFO] ci - [echo] resources.common.folder ... common
+[2023-01-06 17:21:14.020] [INFO] ci - [echo] resources.platform.folder ... mobile/native/android
+[2023-01-06 17:21:14.023] [INFO] ci - [echo] automation mode false
+[2023-01-06 17:21:14.023] [INFO] ci - 
+[2023-01-06 17:21:14.041] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\additional.properties
+[2023-01-06 17:21:14.047] [INFO] ci - copyjar:
+[2023-01-06 17:21:14.048] [INFO] ci - [echo] isIncrementalBuild = true and appdir.present = true
+[2023-01-06 17:21:14.053] [INFO] ci - [unjar] Expanding: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\codegen.jar into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test
+[2023-01-06 17:21:17.058] [INFO] ci - copyextlibs:
+[2023-01-06 17:21:17.059] [INFO] ci - [echo] Copying extlibs ... dev.language = js
+[2023-01-06 17:21:17.059] [INFO] ci - 
+[2023-01-06 17:21:17.059] [INFO] ci - [echo] networktrustconfig = None
+[2023-01-06 17:21:17.061] [INFO] ci - [echo] Copying Vulkan libs
+[2023-01-06 17:21:17.064] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:17.110] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 17:21:17.143] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 17:21:17.203] [INFO] ci - bundle-features:
+[2023-01-06 17:21:17.220] [INFO] ci - [copy] Copying 56 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:18.775] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 17:21:18.834] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\kony-video-widget.jar
+[2023-01-06 17:21:18.835] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:18.859] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:18.894] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:18.918] [INFO] ci - convertAppidInLowerCase:
+[2023-01-06 17:21:18.922] [INFO] ci - gen:
+[2023-01-06 17:21:18.922] [INFO] ci - [echo] Building android source code
+[2023-01-06 17:21:18.926] [INFO] ci - [echo] The value of packagename is com.orgname.Test
+[2023-01-06 17:21:18.926] [INFO] ci - [echo] Creating package path: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/src/com//orgname//Test
+[2023-01-06 17:21:18.929] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\com\orgname\Test
+[2023-01-06 17:21:19.339] [INFO] ci - [echo]  usegoogleplaylocationservices: false
+[2023-01-06 17:21:19.356] [INFO] ci - configure-play-auth-dependent-features:
+[2023-01-06 17:21:19.493] [INFO] ci - addGoogleMapEntries:
+[2023-01-06 17:21:19.504] [INFO] ci - [echo] The value of googlemapv2key is empty
+[2023-01-06 17:21:19.505] [INFO] ci - [echo]  MapV2 Metadata-Key:
+[2023-01-06 17:21:19.505] [INFO] ci - [echo]  MapV2 Permissions:
+[2023-01-06 17:21:19.584] [INFO] ci - addHuaweiMobileServicesEntries:
+[2023-01-06 17:21:19.584] [INFO] ci - [echo]  useHuaweiMapAndLocationServices  :: false
+     [echo]  useHuaweiPushService  :: false
+[2023-01-06 17:21:19.898] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\com\orgname\Test
+[2023-01-06 17:21:20.477] [INFO] ci - [echo] The value of andmanifesttags is
+[2023-01-06 17:21:20.477] [INFO] ci - [echo] The value of andapplicationtags is
+[2023-01-06 17:21:20.540] [INFO] ci - [echo] The value of activity_child_tags is
+[2023-01-06 17:21:20.540] [INFO] ci - [echo] appShortcutsMetaData :
+[2023-01-06 17:21:20.586] [INFO] ci - [echo] The value of andapplicationattrs is
+[2023-01-06 17:21:20.586] [INFO] ci - [echo] The value of ismipmapicon is ${ismipmapicon}
+[2023-01-06 17:21:20.587] [INFO] ci - [echo] Setting drawable icon:
+[2023-01-06 17:21:20.752] [INFO] ci - [echo] The value of manifest_tag_attrs is
+[2023-01-06 17:21:20.789] [INFO] ci - [echo] The value of activityattrs is
+[2023-01-06 17:21:20.850] [INFO] ci - makeLauncherChanges:
+[2023-01-06 17:21:20.851] [INFO] ci - [echo] useHeadlessLauncherActivity:${useHeadlessLauncherActivity}
+[2023-01-06 17:21:20.852] [INFO] ci - [echo] useCustomHeadlessLauncherActivity:${useCustomHeadlessLauncherActivity}
+[2023-01-06 17:21:20.853] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\APPIDHeadlessLauncherActivity.java
+[2023-01-06 17:21:20.923] [INFO] ci - [echo] Min SDK version: minSdkVersion 27
+[2023-01-06 17:21:20.923] [INFO] ci - [echo] Max SDK version:  
+     [echo] Target SDK version: targetSdkVersion 31
+[2023-01-06 17:21:20.988] [INFO] ci - [echo] splashOrientationClassifier: ${splashOrientationClassifier}
+[2023-01-06 17:21:20.989] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is defined in application manifest entry:  false
+[2023-01-06 17:21:20.990] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is added by location listener type: false 
+     [echo] enableBatteryOptimizationAPI is defined in androidbuild.properties file : ${enableBatteryOptimizationAPI}
+[2023-01-06 17:21:20.990] [INFO] ci - [echo] useExternalBouncyCastleLibrary is defined in androidbuild.properties file : ${useExternalBouncyCastleLibrary}
+[2023-01-06 17:21:21.022] [INFO] ci - [echo] enablepushnotifications false
+[2023-01-06 17:21:21.022] [INFO] ci - [echo] enablefcmpushnotifications false
+     [echo] customgcmbroadcastreceiver ${customgcmbroadcastreceiver}
+     [echo] customfcmservice ${customfcmservice}
+[2023-01-06 17:21:21.022] [INFO] ci - [echo] FCM GCM
+[2023-01-06 17:21:21.023] [INFO] ci - [echo] Push Notification Permissions:
+[2023-01-06 17:21:21.023] [INFO] ci - [echo] Push Notification Intent Filters: 
+     [echo] Push Notification Intent Receiver:
+[2023-01-06 17:21:21.023] [INFO] ci - [echo] Kony Local Service:
+[2023-01-06 17:21:21.377] [INFO] ci - [echo] push_notification_type.local 0
+[2023-01-06 17:21:21.531] [INFO] ci - [echo] application childtags does not contain  com.konylabs.api.wearable.KonyWearableListenerService
+[2023-01-06 17:21:21.531] [INFO] ci - [echo] watch_background_listener_service =
+[2023-01-06 17:21:21.657] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\deeplinkdata.txt
+[2023-01-06 17:21:21.659] [INFO] ci - [echo] Any Density: android:anyDensity ="true"
+[2023-01-06 17:21:21.660] [INFO] ci - [echo] Small Screen: android:smallScreens ="true"
+[2023-01-06 17:21:21.660] [INFO] ci - [echo] Normal Screen: android:normalScreens ="true"
+[2023-01-06 17:21:21.661] [INFO] ci - [echo] Large Screen: android:largeScreens ="true" 
+     [echo] xLarge Screen: android:xlargeScreens ="true"
+[2023-01-06 17:21:21.661] [INFO] ci - [echo] Resizable:
+[2023-01-06 17:21:21.760] [INFO] ci - [echo] Install location not defined
+[2023-01-06 17:21:21.798] [INFO] ci - [echo] Permissions set:
+[2023-01-06 17:21:21.798] [INFO] ci - [echo]  <uses-permission android:name="android.permission.INTERNET"/>
+     [echo]  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+[2023-01-06 17:21:22.021] [INFO] ci - [echo]  LOCAL Notification Permissions:
+[2023-01-06 17:21:22.021] [INFO] ci - [echo]  LOCAL Notification Intent Filters:  
+     [echo]  LOCAL Notification Intent Receiver:
+[2023-01-06 17:21:22.662] [INFO] ci - [echo] Google-Pay  :: false
+[2023-01-06 17:21:22.731] [INFO] ci - [echo] useMLImageClassifier  :: ${useMLImageClassifier}
+[2023-01-06 17:21:23.174] [INFO] ci - [echo] build_gradle_attrs_prefix =
+[2023-01-06 17:21:23.207] [INFO] ci - [echo] build_gradle_attrs_suffix =
+[2023-01-06 17:21:23.241] [INFO] ci - [echo] gradle_properties_attrs =
+[2023-01-06 17:21:23.242] [INFO] ci - [echo] gradle_properties_attrs =
+[2023-01-06 17:21:23.437] [INFO] ci - cleanupgradle:
+[2023-01-06 17:21:23.538] [INFO] ci - checkAndIncludeReactNative:
+[2023-01-06 17:21:23.538] [INFO] ci - [echo] enableReactNative :: ${enableReactNative}
+[2023-01-06 17:21:23.705] [INFO] ci - copyassets:
+[2023-01-06 17:21:23.706] [INFO] ci - [echo] Copying the resources to android assets
+     [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 17:21:23.746] [INFO] ci - [echo] DefaultLocale = ${DefaultLocale}
+[2023-01-06 17:21:23.812] [INFO] ci - writeMainActivityFullNameToAppPropertiesFile:
+[2023-01-06 17:21:23.813] [INFO] ci - [echo] isRelativeClass inside writeAppID.. :${isRelativeClassName}
+     [echo] mainActivityFullyQualifiedName:com.orgname.Test.Test
+[2023-01-06 17:21:23.828] [INFO] ci - [propertyfile] Creating new property file: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\additional.properties
+[2023-01-06 17:21:23.872] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 17:21:23.935] [INFO] ci - Trying to override old definition of task escapejssource
+[2023-01-06 17:21:24.017] [INFO] ci - copy-appsrc:
+[2023-01-06 17:21:24.106] [INFO] ci - compress:
+[2023-01-06 17:21:24.106] [INFO] ci - [echo] Compressing the android Test application
+[2023-01-06 17:21:24.108] [INFO] ci - [delete] Deleting directory C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification
+[2023-01-06 17:21:24.145] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification
+[2023-01-06 17:21:24.147] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\startup
+[2023-01-06 17:21:24.149] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\startup
+[2023-01-06 17:21:24.188] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 17:21:24.190] [INFO] ci - [copy] Copying 9 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 17:21:24.191] [INFO] ci - 
+[2023-01-06 17:21:24.581] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\default
+[2023-01-06 17:21:24.584] [INFO] ci - [copy] Copying 6 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\default
+[2023-01-06 17:21:24.750] [INFO] ci - [echo] enableawssdk = false 
+     [echo]  awssdkfileloc = ${awssdkfileloc}
+[2023-01-06 17:21:24.751] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\extres
+[2023-01-06 17:21:24.756] [INFO] ci - [copy] Copying 5 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\extres
+[2023-01-06 17:21:25.152] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.199] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup\frmMain.js.zip
+[2023-01-06 17:21:25.200] [INFO] ci - 
+[2023-01-06 17:21:25.207] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.213] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.234] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup\frmMainController.js.zip
+[2023-01-06 17:21:25.236] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation\NavigationModel.js.zip
+[2023-01-06 17:21:25.236] [INFO] ci - 
+[2023-01-06 17:21:25.256] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.259] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSampleRowTemplateController.js.zip
+[2023-01-06 17:21:25.269] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.269] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.271] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSectionHeaderTemplateController.js.zip
+[2023-01-06 17:21:25.271] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.271] [INFO] ci - 
+[2023-01-06 17:21:25.273] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\applicationController.js.zip
+[2023-01-06 17:21:25.274] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation\NavigationController.js.zip
+[2023-01-06 17:21:25.274] [INFO] ci - 
+[2023-01-06 17:21:25.283] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.284] [INFO] ci - 
+[2023-01-06 17:21:25.285] [INFO] ci - zip_individual_files:
+[2023-01-06 17:21:25.286] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSampleRowTemplate.js.zip
+[2023-01-06 17:21:25.286] [INFO] ci - 
+[2023-01-06 17:21:25.307] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSectionHeaderTemplate.js.zip
+[2023-01-06 17:21:25.326] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup
+[2023-01-06 17:21:25.338] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup
+[2023-01-06 17:21:25.380] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation
+[2023-01-06 17:21:25.380] [INFO] ci - 
+[2023-01-06 17:21:25.399] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 17:21:25.405] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 17:21:25.405] [INFO] ci - 
+[2023-01-06 17:21:25.406] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 17:21:25.437] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 17:21:25.463] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation
+[2023-01-06 17:21:25.480] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 17:21:25.485] [INFO] ci - [delete] Deleting directory C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 17:21:25.496] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 17:21:25.537] [INFO] ci - copy-webassets:
+[2023-01-06 17:21:25.537] [INFO] ci - [echo] Copying the web assets from C:/Users/2154743/VisualizerWorkspace/Test
+[2023-01-06 17:21:25.583] [INFO] ci - gen-ffi-loading:
+[2023-01-06 17:21:25.623] [INFO] ci - zip-common-jslibs:
+[2023-01-06 17:21:25.626] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\common-jslibs.kfm
+[2023-01-06 17:21:25.731] [INFO] ci - [zip] Updating zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\common-jslibs.kfm
+[2023-01-06 17:21:25.854] [INFO] ci - zip-paas-jslib:
+[2023-01-06 17:21:25.862] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\paas.kfm
+[2023-01-06 17:21:25.947] [INFO] ci - zip-workerthreads:
+[2023-01-06 17:21:26.020] [INFO] ci - gen-zip-files:
+[2023-01-06 17:21:26.073] [INFO] ci - gen-js-zip-files:
+[2023-01-06 17:21:26.076] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\startup.js
+[2023-01-06 17:21:26.152] [INFO] ci - [zip] Updating zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\startup.js
+[2023-01-06 17:21:26.217] [INFO] ci - [copy] Copying 9 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 17:21:26.771] [INFO] ci - encrypt-zip-files:
+[2023-01-06 17:21:26.778] [INFO] ci - [touch] Creating C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 17:21:28.655] [INFO] ci - [exec]
+[2023-01-06 17:21:28.655] [INFO] ci - [exec] Execution time = 1.000000
+[2023-01-06 17:21:28.659] [INFO] ci - [echo] 
+     [echo]  exit Code:=0
+[2023-01-06 17:21:28.701] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 17:21:28.707] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 17:21:28.713] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\AppGroup
+[2023-01-06 17:21:28.717] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\AppGroup
+[2023-01-06 17:21:28.722] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 17:21:28.728] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 17:21:28.733] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 17:21:28.737] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 17:21:28.743] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 17:21:28.749] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\navigation
+[2023-01-06 17:21:28.753] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\navigation
+[2023-01-06 17:21:28.757] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 17:21:28.763] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 17:21:28.830] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\fonts
+[2023-01-06 17:21:28.875] [INFO] ci - [echo] Copying theme files
+[2023-01-06 17:21:28.876] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 17:21:28.907] [INFO] ci - [echo] hybridmode..........native
+[2023-01-06 17:21:28.920] [INFO] ci - copynativeresources:
+[2023-01-06 17:21:28.920] [INFO] ci - [echo] Copying the native resources to android assets
+[2023-01-06 17:21:28.940] [INFO] ci - [copy] Copying 29 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\res\drawable
+[2023-01-06 17:21:29.690] [INFO] ci - [copy] Warning: C:\Users\2154743\VisualizerWorkspace\Test\resources\common\videos does not exist.
+[2023-01-06 17:21:30.993] [INFO] ci - [java] XMLMerging Started sourceFolderPath = C:/Users/2154743/VisualizerWorkspace/Test/resources/mobile/native/android destFolderPath = C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/resNo of Files to merge = 4
+     [java] XMLMerging Completed
+[2023-01-06 17:21:31.021] [INFO] ci - copyninepatchimages:
+[2023-01-06 17:21:31.021] [INFO] ci - [echo] Copying the nine patch images and delete the actual png image in android drawable folder
+[2023-01-06 17:21:31.036] [INFO] ci - check-for-actual-png-file:
+[2023-01-06 17:21:31.045] [INFO] ci - check-for-actual-png-file:
+[2023-01-06 17:21:31.053] [INFO] ci - renamelaunchericon:
+[2023-01-06 17:21:31.057] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\res\drawable
+[2023-01-06 17:21:31.103] [INFO] ci - [echo] Copying third party libraries
+[2023-01-06 17:21:31.107] [INFO] ci - [copy] Copying 7 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:31.274] [INFO] ci - [echo] Copying ffi templates to src folder
+[2023-01-06 17:21:31.275] [INFO] ci - [copy] Copying 2 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src
+[2023-01-06 17:21:31.352] [INFO] ci - [echo] No custom widget libraries found
+[2023-01-06 17:21:31.353] [INFO] ci - [echo] thirdparty dir::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip,C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip,C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip
+[2023-01-06 17:21:31.355] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip
+[2023-01-06 17:21:31.356] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_FileStorage-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:31.370] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip
+[2023-01-06 17:21:31.370] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_SDKCommons-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:31.442] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip
+[2023-01-06 17:21:31.443] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_SyncV2-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 17:21:31.481] [INFO] ci - precompile:
+[2023-01-06 17:21:31.481] [INFO] ci - [echo] No precompile task present
+
+CheckForLicenses:
+[2023-01-06 17:21:31.486] [INFO] ci - init:
+[2023-01-06 17:21:31.524] [INFO] ci - CreateLicenseIfNotExist:
+[2023-01-06 17:21:31.527] [INFO] ci - checkForInputs:
+[2023-01-06 17:21:31.528] [INFO] ci - [echo]  current directory C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.android\luaandroid\extres
+[2023-01-06 17:21:31.529] [INFO] ci - [echo] CreateLicenseIfNotExist called
+[2023-01-06 17:21:31.530] [INFO] ci - [echo] license exists true
+[2023-01-06 17:21:31.535] [INFO] ci - update_license_if_already_exist:
+[2023-01-06 17:21:31.554] [INFO] ci - gradleTask:
+[2023-01-06 17:21:31.555] [INFO] ci - configureReleaseSignInfo:
+
+compile:
+[2023-01-06 17:21:31.565] [INFO] ci - calculateChecksum:
+[2023-01-06 17:21:31.573] [INFO] ci - Trying to override old definition of task escapejssource
+[2023-01-06 17:21:31.612] [INFO] ci - encrypt-assets-hash-file:
+[2023-01-06 17:21:32.501] [INFO] ci - [java]
+[2023-01-06 17:21:32.506] [INFO] ci - [java] Total Time Taken: 285
+[2023-01-06 17:21:32.581] [INFO] ci - encrypt-zip-files:
+[2023-01-06 17:21:32.581] [INFO] ci - [touch] Creating C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 17:21:33.917] [INFO] ci - [exec] 
+     [exec] Execution time = 0.000000
+[2023-01-06 17:21:33.919] [INFO] ci - [echo]
+[2023-01-06 17:21:33.920] [INFO] ci - [echo]  exit Code:=0
+[2023-01-06 17:21:33.961] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 17:21:33.968] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 17:21:33.974] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 17:21:33.981] [INFO] ci - buildapk:
+[2023-01-06 17:21:33.982] [INFO] ci - [echo] Java Path used by Gradle: C:/Program Files/Java/jdk1.8.0_311
+[2023-01-06 17:21:33.982] [INFO] ci - [echo] Gradle Path : 
+     [echo] Packaging the android Test application
+[2023-01-06 17:21:33.982] [INFO] ci - [echo] Substituting drive
+[2023-01-06 17:21:34.592] [INFO] ci - [java] Substituting DriveSubstituting DriveRunning command =SUBST A: "C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/.."
+[2023-01-06 17:21:35.327] [INFO] ci - [java]
+[2023-01-06 17:21:35.328] [INFO] ci - [java] Process Exit status = 0
+     [java] Success. Drive Substituted and UniqCodeFile [A:\Test\Test-Mobile-20230106172100033.txt] found.
+[2023-01-06 17:21:35.330] [INFO] ci - [echo] subst-drive length 1 A
+[2023-01-06 17:21:35.330] [INFO] ci - [echo] app-build.dir is  A:\Test
+[2023-01-06 17:21:35.330] [INFO] ci - [echo] isInternetConnectionAvailable ${isInternetConnectionAvailable}
+     [echo] plugin loc C:/Users/2154743/VisualizerWorkspace/bundles/com.pat.tool.keditor
+[2023-01-06 17:21:35.331] [INFO] ci - [echo] A:\Test/gradlew -version
+[2023-01-06 17:21:35.333] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@1725dc0f
+[2023-01-06 17:21:35.333] [INFO] ci - [exec-shell] 
+[exec-shell] ***********cmd.exe
+[exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Test/gradlew" -version"
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 17:21:37.021] [INFO] ci - [exec-shell] 
+[exec-shell] ------------------------------------------------------------
+[exec-shell] Gradle 6.7.1
+[exec-shell] ------------------------------------------------------------
+[exec-shell]
+[2023-01-06 17:21:37.021] [INFO] ci - [exec-shell] Build time:   2020-11-16 17:09:24 UTC
+[exec-shell] Revision:     2972ff02f3210d2ceed2f1ea880f026acfbab5c0
+[exec-shell] 
+[exec-shell] Kotlin:       1.3.72
+[exec-shell] Groovy:       2.5.12
+[exec-shell] Ant:          Apache Ant(TM) version 1.10.8 compiled on May 10 2020
+[exec-shell] JVM:          1.8.0_311 (Oracle Corporation 25.311-b11)
+[exec-shell] OS:           Windows 10 10.0 amd64
+[exec-shell]
+[2023-01-06 17:21:37.023] [INFO] ci - [delete] Deleting: A:\Test\outputAPKVariants.properties
+[2023-01-06 17:21:37.028] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@2145b572
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 17:21:37.028] [INFO] ci - [exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Test/gradlew" assembleRelease  -b "A:\Test/build.gradle""
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 17:21:42.685] [INFO] ci - [exec-shell] 
+[exec-shell] > Configure project :
+[2023-01-06 17:21:42.685] [INFO] ci - [exec-shell] WARNING:: The option setting 'android.enableR8=false' is deprecated.
+[exec-shell] It will be removed in version 7.0 of the Android Gradle plugin.
+[exec-shell] You will no longer be able to disable R8
+[2023-01-06 17:21:43.665] [INFO] ci - [exec-shell] debug=A:\Test\build\outputs\apk\debug\Test-debug.apk
+[exec-shell] release=A:\Test\build\outputs\apk\release\Test-release-unsigned.apk
+[2023-01-06 17:21:43.775] [INFO] ci - [exec-shell] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+[exec-shell] Currently detected usages:
+[2023-01-06 17:21:43.775] [INFO] ci - [exec-shell] - repository flatDir used in: root project 'Test'
+[exec-shell] WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+[exec-shell] This repository is deprecated and it will be shut down in the future.
+[exec-shell] See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+[exec-shell] Currently detected usages in: root project 'Test'
+[2023-01-06 17:21:45.634] [INFO] ci - [exec-shell]
+[2023-01-06 17:21:45.635] [INFO] ci - [exec-shell] > Task :preBuild UP-TO-DATE
+[exec-shell] > Task :preReleaseBuild UP-TO-DATE
+[2023-01-06 17:21:45.743] [INFO] ci - [exec-shell] > Task :compileReleaseAidl NO-SOURCE
+[2023-01-06 17:21:45.960] [INFO] ci - [exec-shell] > Task :compileReleaseRenderscript UP-TO-DATE
+[exec-shell] > Task :generateReleaseBuildConfig UP-TO-DATE
+[2023-01-06 17:21:45.960] [INFO] ci - [exec-shell] > Task :javaPreCompileRelease UP-TO-DATE
+[exec-shell] > Task :writeReleaseApplicationId UP-TO-DATE
+[exec-shell] > Task :analyticsRecordingRelease
+[exec-shell] > Task :checkReleaseAarMetadata UP-TO-DATE
+[exec-shell] > Task :generateReleaseResValues UP-TO-DATE
+[exec-shell] > Task :generateReleaseResources UP-TO-DATE
+[2023-01-06 17:21:46.288] [INFO] ci - [exec-shell] > Task :mergeReleaseResources UP-TO-DATE
+[exec-shell] > Task :createReleaseCompatibleScreenManifests UP-TO-DATE
+[2023-01-06 17:21:46.288] [INFO] ci - [exec-shell] > Task :extractDeepLinksRelease UP-TO-DATE
+[2023-01-06 17:21:46.397] [INFO] ci - [exec-shell] > Task :processReleaseMainManifest UP-TO-DATE
+[exec-shell] > Task :processReleaseManifest UP-TO-DATE
+[2023-01-06 17:21:46.397] [INFO] ci - [exec-shell] > Task :processReleaseManifestForPackage UP-TO-DATE
+[2023-01-06 17:21:46.506] [INFO] ci - [exec-shell] > Task :processReleaseResources UP-TO-DATE
+[2023-01-06 17:21:46.507] [INFO] ci - 
+[2023-01-06 17:21:46.832] [INFO] ci - [exec-shell] > Task :compileReleaseJavaWithJavac UP-TO-DATE
+[exec-shell] > Task :compileReleaseSources UP-TO-DATE
+[2023-01-06 17:21:51.523] [INFO] ci - [exec-shell] w: Runtime JAR files in the classpath have the version 1.3, which is older than the API version 1.4. Consider using the runtime of version 1.4, or pass '-api-version 1.3' explicitly to restrict the available APIs to the runtime of version 1.3. You can also pass '-language-version 1.3' instead, which will restrict not only the APIs to the specified version, but also the language features
+[2023-01-06 17:21:51.523] [INFO] ci - [exec-shell] > Task :lintVitalRelease
+[exec-shell] 
+[exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.61\4702105e97f7396ae41b113fdbdc180ec1eb1e36\kotlin-stdlib-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.3.61\70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066\kotlin-stdlib-jdk7-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.61\65abb71d5afb850b68be03987b08e2c864ca3110\kotlin-stdlib-common-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[2023-01-06 17:21:57.905] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :mergeReleaseJniLibFolders UP-TO-DATE
+[2023-01-06 17:21:58.124] [INFO] ci - [exec-shell] > Task :mergeReleaseNativeLibs UP-TO-DATE
+[exec-shell] > Task :stripReleaseDebugSymbols UP-TO-DATE
+[2023-01-06 17:21:58.124] [INFO] ci - [exec-shell] > Task :extractReleaseNativeSymbolTables UP-TO-DATE
+[exec-shell] > Task :mergeReleaseNativeDebugMetadata NO-SOURCE
+[exec-shell] > Task :mergeReleaseShaders UP-TO-DATE
+[exec-shell] > Task :compileReleaseShaders NO-SOURCE
+[exec-shell] > Task :generateReleaseAssets UP-TO-DATE
+[2023-01-06 17:21:58.885] [INFO] ci - [exec-shell] > Task :mergeReleaseAssets
+[2023-01-06 17:21:59.660] [INFO] ci - [exec-shell] > Task :checkReleaseDuplicateClasses UP-TO-DATE
+[exec-shell] > Task :dexBuilderRelease UP-TO-DATE
+[2023-01-06 17:21:59.660] [INFO] ci - [exec-shell] > Task :desugarReleaseFileDependencies UP-TO-DATE
+[exec-shell] > Task :compressReleaseAssets
+[2023-01-06 17:21:59.770] [INFO] ci - [exec-shell] > Task :mergeExtDexRelease UP-TO-DATE
+[2023-01-06 17:21:59.879] [INFO] ci - [exec-shell] > Task :mergeDexRelease UP-TO-DATE
+[2023-01-06 17:21:59.880] [INFO] ci - 
+[2023-01-06 17:21:59.880] [INFO] ci - [exec-shell] > Task :processReleaseJavaRes UP-TO-DATE
+[2023-01-06 17:21:59.881] [INFO] ci - [exec-shell] > Task :mergeReleaseJavaResource UP-TO-DATE
+[exec-shell] > Task :optimizeReleaseResources UP-TO-DATE
+[2023-01-06 17:21:59.986] [INFO] ci - [exec-shell] > Task :collectReleaseDependencies UP-TO-DATE
+[exec-shell] > Task :sdkReleaseDependencyData UP-TO-DATE
+[2023-01-06 17:21:59.986] [INFO] ci - [exec-shell] > Task :writeReleaseAppMetadata UP-TO-DATE
+[exec-shell] > Task :writeReleaseSigningConfigVersions UP-TO-DATE
+[2023-01-06 17:22:00.532] [INFO] ci - [exec-shell] > Task :packageRelease
+[exec-shell] > Task :assembleRelease
+[2023-01-06 17:22:00.640] [INFO] ci - [exec-shell] 
+[exec-shell] BUILD SUCCESSFUL in 22s
+[2023-01-06 17:22:00.641] [INFO] ci - [exec-shell] 36 actionable tasks: 5 executed, 31 up-to-date
+[2023-01-06 17:22:00.699] [INFO] ci - signApk:
+[2023-01-06 17:22:00.700] [INFO] ci - [echo] Release apk signing started.
+[2023-01-06 17:22:00.705] [INFO] ci - [copy] Copying 1 file to A:\Test\build\outputs\apk\debug
+[2023-01-06 17:22:00.781] [INFO] ci - [echo] Invoking APKSigner.jar to sign apk
+[2023-01-06 17:22:01.903] [INFO] ci - [java] Getting .andorid folder location
+     [java] Checking key folder Path = C:\Users\2154743\.android
+[2023-01-06 17:22:01.903] [INFO] ci - [java] Debug key exists at C:\Users\2154743\.android\debug.keystore
+[2023-01-06 17:22:02.011] [INFO] ci - [java] Debug Key not expired
+[2023-01-06 17:22:02.011] [INFO] ci - [java] Signing the Apk=A://Test//build//outputs//apk//debug//Test-debug.apk with debugkey=C:\Users\2154743\.android\debug.keystore
+     [java] Running command =C:/Users/2154743/AppData/Local/Android/sdk\build-tools\30.0.2\apksigner.bat sign --ks C:\Users\2154743\.android\debug.keystore --ks-pass pass:android --key-pass pass:android --ks-key-alias androiddebugkey A://Test//build//outputs//apk//debug//Test-debug.apk
+[2023-01-06 17:22:04.739] [INFO] ci - [java] 
+     [java] Process Exit status = 0
+[2023-01-06 17:22:04.739] [INFO] ci - [java] Signed the Apk=A://Test//build//outputs//apk//debug//Test-debug.apk	using debugkey=C:\Users\2154743\.android\debug.keystore
+[2023-01-06 17:22:04.792] [INFO] ci - protectedBinaryFinalisation:
+[2023-01-06 17:22:04.792] [INFO] ci - [echo] Preparing finalisation is protected :: release     and is LibraryMode:: false
+
+publish:
+[2023-01-06 17:22:04.794] [INFO] ci - [echo] Preparing the package for publish
+[2023-01-06 17:22:04.796] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist
+[2023-01-06 17:22:05.637] [INFO] ci - [java] unSubstituting DriveUnsubstituting Drive ARunning command =SUBST A: /d
+[2023-01-06 17:22:06.404] [INFO] ci - [java]
+[2023-01-06 17:22:06.405] [INFO] ci - [java] Process Exit status = 0
+[2023-01-06 17:22:06.421] [INFO] ci - [java] Unsubstitution successful for Drive A
+[2023-01-06 17:22:06.421] [INFO] ci - postcompile:
+[2023-01-06 17:22:06.422] [INFO] ci - [echo] No postcompile task present
+[2023-01-06 17:22:06.422] [INFO] ci - all:
+[2023-01-06 17:22:06.423] [INFO] ci - BUILD SUCCESSFUL
+Total time: 52 seconds
+[2023-01-06 17:22:06.524] [INFO] ci - Platform:android , build status : COMPLETED
+[2023-01-06 17:22:06.610] [INFO] ci - Binary successfully copied to C:\Users\2154743\VisualizerWorkspace\Test\binaries\android\Test-release.apk
+[2023-01-06 18:03:32.253] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.6.8
+        -------------------------------
+         node version: v18.1.0
+
+[2023-01-06 18:03:39.280] [DEBUG] ci -  ➠ Pre-build validations
+[2023-01-06 18:03:39.281] [INFO] ci - ✓ ANT_HOME
+[2023-01-06 18:03:39.283] [INFO] ci - ✓ javaloc
+[2023-01-06 18:03:39.284] [INFO] ci - ✓ androidHome
+[2023-01-06 18:03:39.288] [INFO] ci - ✓ java version
+[2023-01-06 18:03:39.289] [INFO] ci - ✓ ant version
+[2023-01-06 18:03:39.290] [INFO] ci - ✓ node version
+[2023-01-06 18:03:39.290] [INFO] ci -  xcode 9.0 - not found
+[2023-01-06 18:03:39.293] [DEBUG] ~~~~ - Close Current Watcher
+[2023-01-06 18:03:39.309] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:03:39.314] [INFO] ~~~~ - Validating project structure using validator template: '9.6'
+[2023-01-06 18:03:39.456] [INFO] ~~~~ - Validating project themes: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:03:39.462] [INFO] ~~~~ - Project dir:  C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:03:39.463] [INFO] ~~~~ - Theme dir, size:  C:\Users\2154743\VisualizerWorkspace\Test\themes\defaultTheme 16
+[2023-01-06 18:03:39.465] [DEBUG] ~~~~ - skip read constants
+[2023-01-06 18:03:39.481] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2023-01-06 18:03:39.483] [INFO] ~~~~ - 
+Project dir:  C:\Users\2154743\VisualizerWorkspace\Test 
+No of uniq skin ids:  15
+[2023-01-06 18:03:39.483] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2023-01-06 18:03:39.487] [INFO] ci - 
+[2023-01-06 18:03:39.495] [INFO] ci - 
+[2023-01-06 18:03:39.498] [INFO] ci - andtargetsdkkey selected is 12.0 (31)
+[2023-01-06 18:03:39.503] [INFO] ci - andtargetsdkkey API level is 31
+[2023-01-06 18:03:39.504] [INFO] ci - andtargetsdkkey selected API Level is 31
+[2023-01-06 18:03:39.506] [INFO] ci - andweartargetsdkkey selected is undefined
+[2023-01-06 18:03:39.514] [DEBUG] ci -  Done... 
+
+[2023-01-06 18:03:39.516] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\Test\projectProperties.json
+[2023-01-06 18:03:39.518] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\config\HeadlessBuild-Default.json
+[2023-01-06 18:03:39.519] [DEBUG] ci - ⚀ Loading ... C:\Users\2154743\VisualizerWorkspace\Test\HeadlessBuild.properties
+[2023-01-06 18:03:39.529] [INFO] ci - Cleaning binaries location...
+[2023-01-06 18:03:39.534] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\Test\binaries\android deleted.
+[2023-01-06 18:03:39.535] [INFO] ci - Cleaning webapps location...
+[2023-01-06 18:03:39.536] [INFO] ci - 
+[2023-01-06 18:03:41.115] [INFO] ci - 
+[2023-01-06 18:04:03.325] [DEBUG] ci - Upgrade native apis...
+[2023-01-06 18:04:03.327] [INFO] ci - NFIs in your project are upto date. No upgrade required.
+[2023-01-06 18:04:03.364] [INFO] ci - ‼︎ Service config is not provided. Skip setting service doc.
+[2023-01-06 18:04:03.366] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 18:04:03.373] [INFO] ci - 
+[2023-01-06 18:04:03.780] [DEBUG] ~~~~ - Delete native framework from workspace
+[2023-01-06 18:04:03.782] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\2154743\VisualizerWorkspace\.nativebindings\nativeapi.json
+[2023-01-06 18:04:03.783] [DEBUG] ~~~~ - Delete native framework from project: /Test/--self--
+[2023-01-06 18:04:03.783] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\2154743\VisualizerWorkspace\Test\nativeapi.json
+[2023-01-06 18:04:03.860] [DEBUG] ~~~~ - Delete native framework from workspace
+[2023-01-06 18:04:03.863] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-14.3 C:\Users\2154743\VisualizerWorkspace\.nativebindings\3.0\nativeapi.json
+[2023-01-06 18:04:03.864] [DEBUG] ~~~~ - Delete native framework from project: /Test/--self--
+[2023-01-06 18:04:03.864] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-14.3 C:\Users\2154743\VisualizerWorkspace\Test\nativeapi.json
+[2023-01-06 18:04:03.865] [DEBUG] ~~~~ - Imported 8 Sync FFI.
+[2023-01-06 18:04:03.865] [INFO] ci - Added default native function APIs.
+[2023-01-06 18:04:03.867] [INFO] ci - 
+[2023-01-06 18:04:03.890] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2023-01-06 18:04:03.890] [INFO] ci - Copying sdk files.
+[2023-01-06 18:04:03.893] [INFO] ci - KonySyncLib.js is not found in SDK plugin.
+[2023-01-06 18:04:03.920] [INFO] ci - SDK file is copied.
+[2023-01-06 18:04:03.922] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 18:04:03.923] [INFO] ci - 
+[2023-01-06 18:04:03.989] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 18:04:03.990] [INFO] ci - 
+[2023-01-06 18:04:04.500] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 18:04:04.503] [INFO] ci - 
+[2023-01-06 18:04:04.527] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 18:04:04.528] [INFO] ci - 
+[2023-01-06 18:04:04.530] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\bundles\com.kony.mobile.fabric.client.sdk
+[2023-01-06 18:04:04.533] [INFO] ci - 
+[2023-01-06 18:04:04.535] [INFO] ci - Start of command line application build.
+[2023-01-06 18:04:04.536] [INFO] ci - Start of Visulaizer Codegen.
+[2023-01-06 18:04:04.537] [INFO] ci - C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:04:04.537] [INFO] ci - 
+[2023-01-06 18:04:04.541] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2023-01-06 18:04:04.586] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2023-01-06 18:04:04.631] [DEBUG] ~~~~ - Saving forms controller actions for channel: mobile
+[2023-01-06 18:04:04.725] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  maps
+[2023-01-06 18:04:04.727] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  segments
+[2023-01-06 18:04:04.980] [DEBUG] ~~~~ - Saving user widgets controller actions
+[2023-01-06 18:04:04.984] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:04:04.987] [INFO] ~~~~ - Validating project structure using validator template: '9.6'
+[2023-01-06 18:04:05.162] [INFO] ~~~~ - Validating project themes: C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:04:05.164] [INFO] ~~~~ - Project dir:  C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:04:05.166] [INFO] ~~~~ - Theme dir, size:  C:\Users\2154743\VisualizerWorkspace\Test\themes\defaultTheme 16
+[2023-01-06 18:04:05.166] [DEBUG] ~~~~ - skip read constants
+[2023-01-06 18:04:05.170] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2023-01-06 18:04:05.170] [INFO] ~~~~ - 
+Project dir:  C:\Users\2154743\VisualizerWorkspace\Test 
+No of uniq skin ids:  15
+[2023-01-06 18:04:05.170] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2023-01-06 18:04:05.173] [INFO] ci - End of Visulaizer Codegen.
+[2023-01-06 18:04:05.178] [DEBUG] ~~~~ - [BUILD] Codegen starts. StartTime: 1673008445178
+[2023-01-06 18:04:05.392] [INFO] ~~~~ - <---Codegeneration Started--->
+[2023-01-06 18:04:05.447] [DEBUG] ~~~~ - NO SUCH DIRECTORY TO CLEAN: C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android
+[2023-01-06 18:04:05.455] [DEBUG] ~~~~ - [BUILD] Code generation for android
+[2023-01-06 18:04:05.458] [DEBUG] ~~~~ - Scripts output directory C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android\src
+[2023-01-06 18:04:06.660] [DEBUG] ~~~~ - [BUILD] Codegen ends. endTime: 1673008446660. Time taken (in ms) : 1482
+[2023-01-06 18:04:06.661] [DEBUG] ~~~~ - [BUILD] Archiving starts. Start time: 1673008446661
+[2023-01-06 18:04:06.666] [DEBUG] ~~~~ - Web Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test\android
+[2023-01-06 18:04:06.666] [DEBUG] ~~~~ - SPA Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test
+[2023-01-06 18:04:06.666] [DEBUG] ~~~~ - Directories created @ C:\Users\2154743\VisualizerWorkspace\.webapps\Test
+[2023-01-06 18:04:06.667] [DEBUG] ~~~~ - Populating project Test
+[2023-01-06 18:04:06.667] [DEBUG] ~~~~ - USING IDE EVENTS :: true
+[2023-01-06 18:04:07.921] [DEBUG] ~~~~ - Populate Completed
+[2023-01-06 18:04:07.922] [DEBUG] ~~~~ - Building for android
+[2023-01-06 18:04:07.923] [INFO] ~~~~ - Code generation for project 'Test' completed.
+[2023-01-06 18:04:07.923] [DEBUG] ~~~~ - Codegen Status :  { android: 'success' }
+[2023-01-06 18:04:08.690] [DEBUG] ~~~~ - [BUILD] Archiving ends. End time: 1673008448690. Time taken (in ms) : 2029
+[2023-01-06 18:04:08.690] [INFO] ci - [ 'android' ]
+[2023-01-06 18:04:08.697] [INFO] ci - 
+[2023-01-06 18:04:08.718] [INFO] ci - Loaded common properties. 
+[2023-01-06 18:04:08.720] [INFO] ci - Platform:android , build status : STARTED
+[2023-01-06 18:04:08.732] [INFO] ci - Minimum SDK API level is 21
+[2023-01-06 18:04:08.737] [INFO] ci - Target SDK API level is 31
+[2023-01-06 18:04:08.738] [INFO] ci - 
+[2023-01-06 18:04:08.740] [INFO] ci - andminsdkkey API level is 27
+[2023-01-06 18:04:08.744] [INFO] ci - 
+[2023-01-06 18:04:08.968] [INFO] ci - 
+[2023-01-06 18:04:08.976] [INFO] ci - 
+[2023-01-06 18:04:09.329] [INFO] ci - 
+[2023-01-06 18:04:09.333] [INFO] ci - 
+[2023-01-06 18:04:09.502] [INFO] ci - 
+[2023-01-06 18:04:09.544] [INFO] ci - andtargetsdkkey API level is 31
+[2023-01-06 18:04:09.548] [INFO] ci - Loaded properties. android
+[2023-01-06 18:04:09.548] [INFO] ci - Start of build for platform : android
+[2023-01-06 18:04:09.548] [INFO] ci - APPFOLDER C:\Users\2154743\VisualizerWorkspace\temp\Test
+[2023-01-06 18:04:09.548] [INFO] ci -  propFilePath C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties
+[2023-01-06 18:04:09.549] [INFO] ci - Platform:android , build status : INPROGRESS
+[2023-01-06 18:04:09.608] [INFO] ci - Execute task Packageandroid...
+[2023-01-06 18:04:09.609] [INFO] ci -  ANT_HOME: C:\Users\2154743\apache-ant-1.10.8\bin\ant
+[2023-01-06 18:04:09.610] [INFO] ci - -DcmdLinePropertyFile C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties -f C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\build.xml -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\ant-contrib-0.6.jar -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\AntelopeTasks_3.4.0.jar -lib C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.tool.keditor\lib\antlr-3.3-complete.jar all
+[2023-01-06 18:04:11.160] [INFO] ci - Buildfile: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\build.xml
+[2023-01-06 18:04:11.651] [INFO] ci - init:
+[2023-01-06 18:04:11.746] [INFO] ci - [echo] property file availble loc: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\androidbuild.properties
+[2023-01-06 18:04:11.746] [INFO] ci - 
+[2023-01-06 18:04:11.843] [INFO] ci - [echo] isLibraryBuild :: false
+[2023-01-06 18:04:11.844] [INFO] ci - [echo] UseSQLCipherFIPS :: false
+[2023-01-06 18:04:11.844] [INFO] ci - [echo] UseOpenSSLLibrary :: false
+[2023-01-06 18:04:11.844] [INFO] ci - [echo] build option :: release
+[2023-01-06 18:04:11.844] [INFO] ci - [echo] andtargetsdkkey :: 31
+[2023-01-06 18:04:11.844] [INFO] ci - [echo] donotAddQueryAllPackages:: ${donotAddQueryAllPackages}
+[2023-01-06 18:04:11.847] [INFO] ci - [echo]  support_arm_32bit  :: false
+[2023-01-06 18:04:11.847] [INFO] ci - [echo]  support_arm_64bit  :: true
+     [echo]  support_x86_32bit  :: false
+[2023-01-06 18:04:11.848] [INFO] ci - [echo]  support_x86_64bit  :: false
+[2023-01-06 18:04:11.872] [INFO] ci - [echo] konyapp.dir = C:\Users\2154743\VisualizerWorkspace\Test
+[2023-01-06 18:04:11.872] [INFO] ci - [echo] isIncrementalBuild = true
+[2023-01-06 18:04:11.881] [INFO] ci - [echo] isUniversalApp = false
+[2023-01-06 18:04:11.883] [INFO] ci - 
+[2023-01-06 18:04:11.887] [INFO] ci - [echo] resources.common.folder ... common
+[2023-01-06 18:04:11.888] [INFO] ci - [echo] resources.platform.folder ... mobile/native/android
+[2023-01-06 18:04:11.890] [INFO] ci - [echo] automation mode false
+[2023-01-06 18:04:11.924] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\additional.properties
+[2023-01-06 18:04:11.924] [INFO] ci - 
+[2023-01-06 18:04:11.936] [INFO] ci - copyjar:
+[2023-01-06 18:04:11.937] [INFO] ci - [echo] isIncrementalBuild = true and appdir.present = true
+[2023-01-06 18:04:11.942] [INFO] ci - [unjar] Expanding: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\codegen.jar into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test
+[2023-01-06 18:04:16.339] [INFO] ci - copyextlibs:
+[2023-01-06 18:04:16.340] [INFO] ci - [echo] Copying extlibs ... dev.language = js
+[2023-01-06 18:04:16.340] [INFO] ci - [echo] networktrustconfig = None
+[2023-01-06 18:04:16.341] [INFO] ci - [echo] Copying Vulkan libs
+[2023-01-06 18:04:16.349] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:16.397] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 18:04:16.440] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 18:04:16.551] [INFO] ci - bundle-features:
+[2023-01-06 18:04:16.574] [INFO] ci - [copy] Copying 56 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:18.717] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\arm64-v8a
+[2023-01-06 18:04:18.798] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs\kony-video-widget.jar
+[2023-01-06 18:04:18.800] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:18.834] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:18.870] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:18.899] [INFO] ci - convertAppidInLowerCase:
+[2023-01-06 18:04:18.903] [INFO] ci - gen:
+[2023-01-06 18:04:18.903] [INFO] ci - [echo] Building android source code
+[2023-01-06 18:04:18.914] [INFO] ci - [echo] The value of packagename is com.orgname.Test
+[2023-01-06 18:04:18.915] [INFO] ci - [echo] Creating package path: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/src/com//orgname//Test
+[2023-01-06 18:04:18.918] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\com\orgname\Test
+[2023-01-06 18:04:19.506] [INFO] ci - [echo]  usegoogleplaylocationservices: false
+[2023-01-06 18:04:19.533] [INFO] ci - configure-play-auth-dependent-features:
+[2023-01-06 18:04:19.717] [INFO] ci - addGoogleMapEntries:
+[2023-01-06 18:04:19.721] [INFO] ci - [echo] The value of googlemapv2key is empty
+[2023-01-06 18:04:19.722] [INFO] ci - [echo]  MapV2 Metadata-Key:
+[2023-01-06 18:04:19.722] [INFO] ci - [echo]  MapV2 Permissions:
+[2023-01-06 18:04:19.851] [INFO] ci - addHuaweiMobileServicesEntries:
+[2023-01-06 18:04:19.851] [INFO] ci - [echo]  useHuaweiMapAndLocationServices  :: false
+[2023-01-06 18:04:19.851] [INFO] ci - [echo]  useHuaweiPushService  :: false
+[2023-01-06 18:04:20.336] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\com\orgname\Test
+[2023-01-06 18:04:21.199] [INFO] ci - [echo] The value of andmanifesttags is
+[2023-01-06 18:04:21.200] [INFO] ci - [echo] The value of andapplicationtags is
+[2023-01-06 18:04:21.301] [INFO] ci - [echo] The value of activity_child_tags is
+[2023-01-06 18:04:21.301] [INFO] ci - [echo] appShortcutsMetaData :
+[2023-01-06 18:04:21.366] [INFO] ci - [echo] The value of andapplicationattrs is
+[2023-01-06 18:04:21.367] [INFO] ci - [echo] The value of ismipmapicon is ${ismipmapicon}
+[2023-01-06 18:04:21.367] [INFO] ci - [echo] Setting drawable icon:
+[2023-01-06 18:04:21.424] [INFO] ci - [echo] The value of manifest_tag_attrs is
+[2023-01-06 18:04:21.472] [INFO] ci - [echo] The value of activityattrs is
+[2023-01-06 18:04:21.535] [INFO] ci - makeLauncherChanges:
+[2023-01-06 18:04:21.535] [INFO] ci - [echo] useHeadlessLauncherActivity:${useHeadlessLauncherActivity}
+[2023-01-06 18:04:21.536] [INFO] ci - [echo] useCustomHeadlessLauncherActivity:${useCustomHeadlessLauncherActivity}
+[2023-01-06 18:04:21.537] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src\APPIDHeadlessLauncherActivity.java
+[2023-01-06 18:04:21.621] [INFO] ci - [echo] Min SDK version: minSdkVersion 27
+[2023-01-06 18:04:21.621] [INFO] ci - [echo] Max SDK version:  
+     [echo] Target SDK version: targetSdkVersion 31
+[2023-01-06 18:04:21.701] [INFO] ci - [echo] splashOrientationClassifier: ${splashOrientationClassifier}
+[2023-01-06 18:04:21.702] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is defined in application manifest entry:  false
+[2023-01-06 18:04:21.702] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is added by location listener type: false 
+     [echo] enableBatteryOptimizationAPI is defined in androidbuild.properties file : ${enableBatteryOptimizationAPI} 
+     [echo] useExternalBouncyCastleLibrary is defined in androidbuild.properties file : ${useExternalBouncyCastleLibrary}
+[2023-01-06 18:04:21.741] [INFO] ci - [echo] enablepushnotifications false
+[2023-01-06 18:04:21.742] [INFO] ci - [echo] enablefcmpushnotifications false
+     [echo] customgcmbroadcastreceiver ${customgcmbroadcastreceiver}
+     [echo] customfcmservice ${customfcmservice}
+     [echo] FCM GCM
+[2023-01-06 18:04:21.744] [INFO] ci - [echo] Push Notification Permissions:
+[2023-01-06 18:04:21.745] [INFO] ci - [echo] Push Notification Intent Filters: 
+     [echo] Push Notification Intent Receiver: 
+     [echo] Kony Local Service:
+[2023-01-06 18:04:22.108] [INFO] ci - [echo] push_notification_type.local 0
+[2023-01-06 18:04:22.335] [INFO] ci - [echo] application childtags does not contain  com.konylabs.api.wearable.KonyWearableListenerService
+[2023-01-06 18:04:22.336] [INFO] ci - [echo] watch_background_listener_service =
+[2023-01-06 18:04:22.481] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\deeplinkdata.txt
+[2023-01-06 18:04:22.483] [INFO] ci - [echo] Any Density: android:anyDensity ="true"
+[2023-01-06 18:04:22.483] [INFO] ci - [echo] Small Screen: android:smallScreens ="true" 
+     [echo] Normal Screen: android:normalScreens ="true"
+     [echo] Large Screen: android:largeScreens ="true"
+[2023-01-06 18:04:22.484] [INFO] ci - [echo] xLarge Screen: android:xlargeScreens ="true" 
+     [echo] Resizable:
+[2023-01-06 18:04:22.484] [INFO] ci - 
+[2023-01-06 18:04:22.638] [INFO] ci - [echo] Install location not defined
+[2023-01-06 18:04:22.687] [INFO] ci - [echo] Permissions set:
+[2023-01-06 18:04:22.687] [INFO] ci - [echo]  <uses-permission android:name="android.permission.INTERNET"/>
+     [echo]  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+[2023-01-06 18:04:23.020] [INFO] ci - [echo]  LOCAL Notification Permissions:
+[2023-01-06 18:04:23.021] [INFO] ci - [echo]  LOCAL Notification Intent Filters:  
+     [echo]  LOCAL Notification Intent Receiver:
+[2023-01-06 18:04:24.522] [INFO] ci - [echo] Google-Pay  :: false
+[2023-01-06 18:04:24.662] [INFO] ci - [echo] useMLImageClassifier  :: ${useMLImageClassifier}
+[2023-01-06 18:04:25.472] [INFO] ci - [echo] build_gradle_attrs_prefix =
+[2023-01-06 18:04:25.535] [INFO] ci - [echo] build_gradle_attrs_suffix =
+[2023-01-06 18:04:25.602] [INFO] ci - [echo] gradle_properties_attrs =
+[2023-01-06 18:04:25.605] [INFO] ci - [echo] gradle_properties_attrs =
+[2023-01-06 18:04:25.918] [INFO] ci - cleanupgradle:
+[2023-01-06 18:04:26.180] [INFO] ci - checkAndIncludeReactNative:
+[2023-01-06 18:04:26.181] [INFO] ci - 
+[2023-01-06 18:04:26.181] [INFO] ci - [echo] enableReactNative :: ${enableReactNative}
+[2023-01-06 18:04:26.523] [INFO] ci - copyassets:
+[2023-01-06 18:04:26.524] [INFO] ci - [echo] Copying the resources to android assets
+[2023-01-06 18:04:26.524] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 18:04:26.605] [INFO] ci - [echo] DefaultLocale = ${DefaultLocale}
+[2023-01-06 18:04:26.708] [INFO] ci - writeMainActivityFullNameToAppPropertiesFile:
+[2023-01-06 18:04:26.709] [INFO] ci - [echo] isRelativeClass inside writeAppID.. :${isRelativeClassName}
+[2023-01-06 18:04:26.714] [INFO] ci - [echo] mainActivityFullyQualifiedName:com.orgname.Test.Test
+[2023-01-06 18:04:26.752] [INFO] ci - [propertyfile] Creating new property file: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\additional.properties
+[2023-01-06 18:04:26.833] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 18:04:26.834] [INFO] ci - 
+[2023-01-06 18:04:26.920] [INFO] ci - Trying to override old definition of task escapejssource
+[2023-01-06 18:04:26.999] [INFO] ci - copy-appsrc:
+[2023-01-06 18:04:27.079] [INFO] ci - compress:
+[2023-01-06 18:04:27.080] [INFO] ci - [echo] Compressing the android Test application
+[2023-01-06 18:04:27.081] [INFO] ci - [delete] Deleting directory C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification
+[2023-01-06 18:04:27.128] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification
+[2023-01-06 18:04:27.129] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\startup
+[2023-01-06 18:04:27.131] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\startup
+[2023-01-06 18:04:27.187] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 18:04:27.191] [INFO] ci - [copy] Copying 9 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 18:04:27.732] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\default
+[2023-01-06 18:04:27.737] [INFO] ci - [copy] Copying 6 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\default
+[2023-01-06 18:04:28.041] [INFO] ci - [echo] enableawssdk = false 
+     [echo]  awssdkfileloc = ${awssdkfileloc}
+[2023-01-06 18:04:28.042] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\extres
+[2023-01-06 18:04:28.054] [INFO] ci - [copy] Copying 5 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\extres
+[2023-01-06 18:04:28.054] [INFO] ci - 
+[2023-01-06 18:04:28.592] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.624] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSectionHeaderTemplateController.js.zip
+[2023-01-06 18:04:28.715] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.716] [INFO] ci - 
+[2023-01-06 18:04:28.722] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation\NavigationModel.js.zip
+[2023-01-06 18:04:28.729] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.731] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup\frmMainController.js.zip
+[2023-01-06 18:04:28.736] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.737] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\applicationController.js.zip
+[2023-01-06 18:04:28.740] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.741] [INFO] ci - 
+[2023-01-06 18:04:28.744] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup\frmMain.js.zip
+[2023-01-06 18:04:28.745] [INFO] ci - 
+[2023-01-06 18:04:28.774] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 18:04:28.774] [INFO] ci - 
+[2023-01-06 18:04:28.793] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.793] [INFO] ci - 
+[2023-01-06 18:04:28.798] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.799] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSampleRowTemplate.js.zip
+[2023-01-06 18:04:28.802] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSampleRowTemplateController.js.zip
+[2023-01-06 18:04:28.802] [INFO] ci - 
+[2023-01-06 18:04:28.816] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.816] [INFO] ci - 
+[2023-01-06 18:04:28.828] [INFO] ci - zip_individual_files:
+[2023-01-06 18:04:28.839] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup
+      [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\flxSectionHeaderTemplate.js.zip
+      [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation\NavigationController.js.zip
+[2023-01-06 18:04:28.872] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\AppGroup
+[2023-01-06 18:04:28.873] [INFO] ci - 
+[2023-01-06 18:04:28.880] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation
+[2023-01-06 18:04:28.906] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 18:04:28.907] [INFO] ci - 
+[2023-01-06 18:04:28.913] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 18:04:28.913] [INFO] ci - 
+[2023-01-06 18:04:28.959] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 18:04:28.999] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require
+[2023-01-06 18:04:29.000] [INFO] ci - 
+[2023-01-06 18:04:29.036] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\minification\require\navigation
+[2023-01-06 18:04:29.037] [INFO] ci - 
+[2023-01-06 18:04:29.049] [INFO] ci - [delete] Deleting directory C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 18:04:29.069] [INFO] ci - [mkdir] Created dir: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 18:04:29.183] [INFO] ci - copy-webassets:
+[2023-01-06 18:04:29.184] [INFO] ci - [echo] Copying the web assets from C:/Users/2154743/VisualizerWorkspace/Test
+[2023-01-06 18:04:29.284] [INFO] ci - gen-ffi-loading:
+[2023-01-06 18:04:29.364] [INFO] ci - zip-common-jslibs:
+[2023-01-06 18:04:29.365] [INFO] ci - 
+[2023-01-06 18:04:29.373] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\common-jslibs.kfm
+[2023-01-06 18:04:29.529] [INFO] ci - [zip] Updating zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\common-jslibs.kfm
+[2023-01-06 18:04:29.702] [INFO] ci - zip-paas-jslib:
+[2023-01-06 18:04:29.711] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\paas.kfm
+[2023-01-06 18:04:29.711] [INFO] ci - 
+[2023-01-06 18:04:29.832] [INFO] ci - zip-workerthreads:
+[2023-01-06 18:04:29.913] [INFO] ci - gen-zip-files:
+[2023-01-06 18:04:30.002] [INFO] ci - gen-js-zip-files:
+[2023-01-06 18:04:30.006] [INFO] ci - [zip] Building zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\startup.js
+[2023-01-06 18:04:30.007] [INFO] ci - 
+[2023-01-06 18:04:30.132] [INFO] ci - [zip] Updating zip: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\startup.js
+[2023-01-06 18:04:30.218] [INFO] ci - [copy] Copying 9 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 18:04:30.219] [INFO] ci - 
+[2023-01-06 18:04:30.952] [INFO] ci - encrypt-zip-files:
+[2023-01-06 18:04:30.959] [INFO] ci - [touch] Creating C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 18:04:33.870] [INFO] ci - [exec]
+[2023-01-06 18:04:33.870] [INFO] ci - [exec] Execution time = 1.000000
+[2023-01-06 18:04:33.884] [INFO] ci - [echo] 
+     [echo]  exit Code:=0
+[2023-01-06 18:04:33.946] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 18:04:33.953] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 18:04:33.958] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\AppGroup
+[2023-01-06 18:04:33.967] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\AppGroup
+[2023-01-06 18:04:33.973] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 18:04:33.983] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 18:04:33.988] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 18:04:33.995] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 18:04:34.003] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require
+[2023-01-06 18:04:34.007] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\navigation
+[2023-01-06 18:04:34.017] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\require\navigation
+[2023-01-06 18:04:34.023] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js
+[2023-01-06 18:04:34.032] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 18:04:34.120] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\fonts
+[2023-01-06 18:04:34.180] [INFO] ci - [echo] Copying theme files
+[2023-01-06 18:04:34.182] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 18:04:34.213] [INFO] ci - [echo] hybridmode..........native
+[2023-01-06 18:04:34.225] [INFO] ci - copynativeresources:
+[2023-01-06 18:04:34.225] [INFO] ci - [echo] Copying the native resources to android assets
+[2023-01-06 18:04:34.237] [INFO] ci - [copy] Copying 29 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\res\drawable
+[2023-01-06 18:04:35.417] [INFO] ci - [copy] Warning: C:\Users\2154743\VisualizerWorkspace\Test\resources\common\videos does not exist.
+[2023-01-06 18:04:36.715] [INFO] ci - [java] XMLMerging Started sourceFolderPath = C:/Users/2154743/VisualizerWorkspace/Test/resources/mobile/native/android destFolderPath = C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/resNo of Files to merge = 4
+[2023-01-06 18:04:36.716] [INFO] ci - [java] XMLMerging Completed
+[2023-01-06 18:04:36.740] [INFO] ci - copyninepatchimages:
+[2023-01-06 18:04:36.740] [INFO] ci - [echo] Copying the nine patch images and delete the actual png image in android drawable folder
+[2023-01-06 18:04:36.756] [INFO] ci - check-for-actual-png-file:
+[2023-01-06 18:04:36.769] [INFO] ci - check-for-actual-png-file:
+[2023-01-06 18:04:36.778] [INFO] ci - renamelaunchericon:
+[2023-01-06 18:04:36.784] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\res\drawable
+[2023-01-06 18:04:36.822] [INFO] ci - [echo] Copying third party libraries
+[2023-01-06 18:04:36.827] [INFO] ci - [copy] Copying 7 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:37.080] [INFO] ci - [echo] Copying ffi templates to src folder
+[2023-01-06 18:04:37.083] [INFO] ci - [copy] Copying 2 files to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\src
+[2023-01-06 18:04:37.180] [INFO] ci - [echo] No custom widget libraries found
+[2023-01-06 18:04:37.181] [INFO] ci - [echo] thirdparty dir::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip,C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip,C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip
+[2023-01-06 18:04:37.183] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip
+[2023-01-06 18:04:37.185] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_FileStorage-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:37.200] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip
+[2023-01-06 18:04:37.200] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_SDKCommons-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:37.288] [INFO] ci - [echo] unziping zip file::::C:/Users/2154743/VisualizerWorkspace/Test/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip
+[2023-01-06 18:04:37.288] [INFO] ci - [unzip] Expanding: C:\Users\2154743\VisualizerWorkspace\Test\nativebindings\Android\4.0\Kony_SyncV2-Android-4.0.zip into C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\libs
+[2023-01-06 18:04:37.358] [INFO] ci - precompile:
+[2023-01-06 18:04:37.358] [INFO] ci - [echo] No precompile task present
+[2023-01-06 18:04:37.359] [INFO] ci - 
+[2023-01-06 18:04:37.359] [INFO] ci - CheckForLicenses:
+[2023-01-06 18:04:37.370] [INFO] ci - init:
+[2023-01-06 18:04:37.395] [INFO] ci - CreateLicenseIfNotExist:
+[2023-01-06 18:04:37.398] [INFO] ci - checkForInputs:
+[2023-01-06 18:04:37.399] [INFO] ci - [echo]  current directory C:\Users\2154743\VisualizerWorkspace\bundles\com.pat.android\luaandroid\extres
+[2023-01-06 18:04:37.399] [INFO] ci - [echo] CreateLicenseIfNotExist called
+[2023-01-06 18:04:37.400] [INFO] ci - [echo] license exists true
+[2023-01-06 18:04:37.402] [INFO] ci - update_license_if_already_exist:
+[2023-01-06 18:04:37.406] [INFO] ci - gradleTask:
+[2023-01-06 18:04:37.406] [INFO] ci - configureReleaseSignInfo:
+[2023-01-06 18:04:37.415] [INFO] ci - compile:
+[2023-01-06 18:04:37.416] [INFO] ci - 
+[2023-01-06 18:04:37.422] [INFO] ci - calculateChecksum:
+[2023-01-06 18:04:37.429] [INFO] ci - Trying to override old definition of task escapejssource
+[2023-01-06 18:04:37.453] [INFO] ci - encrypt-assets-hash-file:
+[2023-01-06 18:04:38.799] [INFO] ci - [java]
+[2023-01-06 18:04:38.802] [INFO] ci - [java] Total Time Taken: 447
+[2023-01-06 18:04:38.838] [INFO] ci - encrypt-zip-files:
+[2023-01-06 18:04:38.839] [INFO] ci - [touch] Creating C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 18:04:40.261] [INFO] ci - [exec] 
+     [exec] Execution time = 0.000000
+[2023-01-06 18:04:40.263] [INFO] ci - [echo] 
+     [echo]  exit Code:=0
+[2023-01-06 18:04:40.264] [INFO] ci - 
+[2023-01-06 18:04:40.310] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 18:04:40.316] [INFO] ci - [move] Moving 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets
+[2023-01-06 18:04:40.328] [INFO] ci - [delete] Deleting: C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist\Test\assets\js\requirefileslist.txt
+[2023-01-06 18:04:40.335] [INFO] ci - buildapk:
+[2023-01-06 18:04:40.336] [INFO] ci - [echo] Java Path used by Gradle: C:/Program Files/Java/jdk1.8.0_311
+     [echo] Gradle Path :
+[2023-01-06 18:04:40.336] [INFO] ci - [echo] Packaging the android Test application
+[2023-01-06 18:04:40.336] [INFO] ci - [echo] Substituting drive
+[2023-01-06 18:04:41.234] [INFO] ci - [java] Substituting DriveSubstituting DriveRunning command =SUBST A: "C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid/dist/Test/.."
+[2023-01-06 18:04:42.270] [INFO] ci - [java]
+[2023-01-06 18:04:42.270] [INFO] ci - [java] Process Exit status = 0
+     [java] Success. Drive Substituted and UniqCodeFile [A:\Test\Test-Mobile-20230106180400040.txt] found.
+[2023-01-06 18:04:42.276] [INFO] ci - [echo] subst-drive length 1 A
+[2023-01-06 18:04:42.277] [INFO] ci - [echo] app-build.dir is  A:\Test
+     [echo] isInternetConnectionAvailable ${isInternetConnectionAvailable}
+     [echo] plugin loc C:/Users/2154743/VisualizerWorkspace/bundles/com.pat.tool.keditor
+[2023-01-06 18:04:42.277] [INFO] ci - [echo] A:\Test/gradlew -version
+[2023-01-06 18:04:42.279] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@1725dc0f
+[2023-01-06 18:04:42.280] [INFO] ci - [exec-shell] 
+[exec-shell] ***********cmd.exe
+[exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Test/gradlew" -version"
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 18:04:45.021] [INFO] ci - [exec-shell] 
+[exec-shell] ------------------------------------------------------------
+[2023-01-06 18:04:45.021] [INFO] ci - [exec-shell] Gradle 6.7.1
+[exec-shell] ------------------------------------------------------------
+[exec-shell] 
+[exec-shell] Build time:   2020-11-16 17:09:24 UTC
+[exec-shell] Revision:     2972ff02f3210d2ceed2f1ea880f026acfbab5c0
+[exec-shell] 
+[exec-shell] Kotlin:       1.3.72
+[exec-shell] Groovy:       2.5.12
+[exec-shell] Ant:          Apache Ant(TM) version 1.10.8 compiled on May 10 2020
+[exec-shell] JVM:          1.8.0_311 (Oracle Corporation 25.311-b11)
+[exec-shell] OS:           Windows 10 10.0 amd64
+[exec-shell]
+[2023-01-06 18:04:45.034] [INFO] ci - [delete] Deleting: A:\Test\outputAPKVariants.properties
+[2023-01-06 18:04:45.037] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@2145b572
+[exec-shell]
+[2023-01-06 18:04:45.038] [INFO] ci - [exec-shell] ***********cmd.exe
+[exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Test/gradlew" assembleRelease  -b "A:\Test/build.gradle""
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2023-01-06 18:04:52.870] [INFO] ci - [exec-shell] 
+[exec-shell] > Configure project :
+[exec-shell] WARNING:: The option setting 'android.enableR8=false' is deprecated.
+[exec-shell] It will be removed in version 7.0 of the Android Gradle plugin.
+[exec-shell] You will no longer be able to disable R8
+[2023-01-06 18:04:55.754] [INFO] ci - [exec-shell] debug=A:\Test\build\outputs\apk\debug\Test-debug.apk
+[2023-01-06 18:04:55.754] [INFO] ci - 
+[2023-01-06 18:04:55.755] [INFO] ci - [exec-shell] release=A:\Test\build\outputs\apk\release\Test-release-unsigned.apk
+[2023-01-06 18:04:55.755] [INFO] ci - 
+[2023-01-06 18:04:55.972] [INFO] ci - [exec-shell] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+[2023-01-06 18:04:55.973] [INFO] ci - [exec-shell] Currently detected usages:
+[exec-shell] - repository flatDir used in: root project 'Test'
+[exec-shell] WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+[exec-shell] This repository is deprecated and it will be shut down in the future.
+[exec-shell] See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+[exec-shell] Currently detected usages in: root project 'Test'
+[2023-01-06 18:04:59.692] [INFO] ci - [exec-shell]
+[2023-01-06 18:04:59.693] [INFO] ci - [exec-shell] > Task :preBuild UP-TO-DATE
+[exec-shell] > Task :preReleaseBuild UP-TO-DATE
+[2023-01-06 18:04:59.794] [INFO] ci - [exec-shell] > Task :compileReleaseAidl NO-SOURCE
+[2023-01-06 18:05:00.028] [INFO] ci - [exec-shell] > Task :compileReleaseRenderscript UP-TO-DATE
+[2023-01-06 18:05:00.029] [INFO] ci - 
+[2023-01-06 18:05:00.029] [INFO] ci - [exec-shell] > Task :generateReleaseBuildConfig UP-TO-DATE
+[exec-shell] > Task :javaPreCompileRelease UP-TO-DATE
+[exec-shell] > Task :writeReleaseApplicationId UP-TO-DATE
+[2023-01-06 18:05:00.145] [INFO] ci - [exec-shell] > Task :analyticsRecordingRelease
+[2023-01-06 18:05:00.146] [INFO] ci - 
+[2023-01-06 18:05:00.358] [INFO] ci - [exec-shell] > Task :checkReleaseAarMetadata UP-TO-DATE
+[2023-01-06 18:05:00.359] [INFO] ci - [exec-shell] > Task :generateReleaseResValues UP-TO-DATE
+[exec-shell] > Task :generateReleaseResources UP-TO-DATE
+[2023-01-06 18:05:00.467] [INFO] ci - [exec-shell] > Task :mergeReleaseResources UP-TO-DATE
+[2023-01-06 18:05:00.577] [INFO] ci - [exec-shell] > Task :createReleaseCompatibleScreenManifests UP-TO-DATE
+[exec-shell] > Task :extractDeepLinksRelease UP-TO-DATE
+[2023-01-06 18:05:00.577] [INFO] ci - [exec-shell] > Task :processReleaseMainManifest UP-TO-DATE
+[exec-shell] > Task :processReleaseManifest UP-TO-DATE
+[exec-shell] > Task :processReleaseManifestForPackage UP-TO-DATE
+[2023-01-06 18:05:00.910] [INFO] ci - [exec-shell] > Task :processReleaseResources UP-TO-DATE
+[2023-01-06 18:05:01.237] [INFO] ci - [exec-shell] > Task :compileReleaseJavaWithJavac UP-TO-DATE
+[exec-shell] > Task :compileReleaseSources UP-TO-DATE
+[2023-01-06 18:05:05.839] [INFO] ci - [exec-shell] w: Runtime JAR files in the classpath have the version 1.3, which is older than the API version 1.4. Consider using the runtime of version 1.4, or pass '-api-version 1.3' explicitly to restrict the available APIs to the runtime of version 1.3. You can also pass '-language-version 1.3' instead, which will restrict not only the APIs to the specified version, but also the language features
+[2023-01-06 18:05:05.840] [INFO] ci - [exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.61\4702105e97f7396ae41b113fdbdc180ec1eb1e36\kotlin-stdlib-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[2023-01-06 18:05:05.840] [INFO] ci - [exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.3.61\70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066\kotlin-stdlib-jdk7-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[2023-01-06 18:05:05.841] [INFO] ci - [exec-shell] w: C:\Users\2154743\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.61\65abb71d5afb850b68be03987b08e2c864ca3110\kotlin-stdlib-common-1.3.61.jar: Runtime JAR file has version 1.3 which is older than required for API version 1.4
+[2023-01-06 18:05:05.841] [INFO] ci - [exec-shell]
+[2023-01-06 18:05:05.842] [INFO] ci - 
+[2023-01-06 18:05:05.842] [INFO] ci - [exec-shell] > Task :lintVitalRelease
+[2023-01-06 18:05:05.843] [INFO] ci - 
+[2023-01-06 18:05:12.387] [INFO] ci - [exec-shell]
+[2023-01-06 18:05:12.389] [INFO] ci - 
+[2023-01-06 18:05:12.390] [INFO] ci - [exec-shell] > Task :mergeReleaseJniLibFolders UP-TO-DATE
+[2023-01-06 18:05:12.390] [INFO] ci - 
+[2023-01-06 18:05:12.391] [INFO] ci - [exec-shell] > Task :mergeReleaseNativeLibs UP-TO-DATE
+[2023-01-06 18:05:12.392] [INFO] ci - 
+[2023-01-06 18:05:12.392] [INFO] ci - [exec-shell] > Task :stripReleaseDebugSymbols UP-TO-DATE
+[2023-01-06 18:05:12.393] [INFO] ci - 
+[2023-01-06 18:05:12.394] [INFO] ci - [exec-shell] > Task :extractReleaseNativeSymbolTables UP-TO-DATE
+[2023-01-06 18:05:12.395] [INFO] ci - 
+[2023-01-06 18:05:12.499] [INFO] ci - [exec-shell] > Task :mergeReleaseNativeDebugMetadata NO-SOURCE
+[exec-shell] > Task :mergeReleaseShaders UP-TO-DATE
+[2023-01-06 18:05:12.499] [INFO] ci - [exec-shell] > Task :compileReleaseShaders NO-SOURCE
+[exec-shell] > Task :generateReleaseAssets UP-TO-DATE
+[2023-01-06 18:05:13.886] [INFO] ci - [exec-shell] > Task :mergeReleaseAssets
+[2023-01-06 18:05:13.887] [INFO] ci - 
+[2023-01-06 18:05:14.787] [INFO] ci - [exec-shell] > Task :checkReleaseDuplicateClasses UP-TO-DATE
+[2023-01-06 18:05:14.789] [INFO] ci - 
+[2023-01-06 18:05:14.789] [INFO] ci - [exec-shell] > Task :dexBuilderRelease UP-TO-DATE
+[2023-01-06 18:05:14.790] [INFO] ci - [exec-shell] > Task :desugarReleaseFileDependencies UP-TO-DATE
+[2023-01-06 18:05:15.073] [INFO] ci - [exec-shell] > Task :mergeExtDexRelease UP-TO-DATE
+[2023-01-06 18:05:15.074] [INFO] ci - 
+[2023-01-06 18:05:15.074] [INFO] ci - [exec-shell] > Task :mergeDexRelease UP-TO-DATE
+[2023-01-06 18:05:15.074] [INFO] ci - [exec-shell] > Task :processReleaseJavaRes UP-TO-DATE
+[exec-shell] > Task :mergeReleaseJavaResource UP-TO-DATE
+[2023-01-06 18:05:15.190] [INFO] ci - [exec-shell] > Task :optimizeReleaseResources UP-TO-DATE
+[2023-01-06 18:05:15.191] [INFO] ci - [exec-shell] > Task :collectReleaseDependencies UP-TO-DATE
+[exec-shell] > Task :sdkReleaseDependencyData UP-TO-DATE
+[exec-shell] > Task :writeReleaseAppMetadata UP-TO-DATE
+[exec-shell] > Task :writeReleaseSigningConfigVersions UP-TO-DATE
+[2023-01-06 18:05:15.636] [INFO] ci - [exec-shell] > Task :compressReleaseAssets
+[2023-01-06 18:05:15.636] [INFO] ci - 
+[2023-01-06 18:05:16.295] [INFO] ci - [exec-shell] > Task :packageRelease
+[2023-01-06 18:05:16.296] [INFO] ci - 
+[2023-01-06 18:05:16.298] [INFO] ci - [exec-shell] > Task :assembleRelease
+[2023-01-06 18:05:16.298] [INFO] ci - 
+[2023-01-06 18:05:16.409] [INFO] ci - [exec-shell]
+[2023-01-06 18:05:16.409] [INFO] ci - [exec-shell] BUILD SUCCESSFUL in 29s
+[exec-shell] 36 actionable tasks: 5 executed, 31 up-to-date
+[2023-01-06 18:05:16.679] [INFO] ci - signApk:
+[2023-01-06 18:05:16.679] [INFO] ci - [echo] Release apk signing started.
+[2023-01-06 18:05:16.683] [INFO] ci - [copy] Copying 1 file to A:\Test\build\outputs\apk\debug
+[2023-01-06 18:05:16.879] [INFO] ci - [echo] Invoking APKSigner.jar to sign apk
+[2023-01-06 18:05:18.134] [INFO] ci - [java] Getting .andorid folder location
+[2023-01-06 18:05:18.134] [INFO] ci - 
+[2023-01-06 18:05:18.135] [INFO] ci - [java] Checking key folder Path = C:\Users\2154743\.android
+[2023-01-06 18:05:18.135] [INFO] ci - 
+[2023-01-06 18:05:18.136] [INFO] ci - [java] Debug key exists at C:\Users\2154743\.android\debug.keystore
+[2023-01-06 18:05:18.136] [INFO] ci - 
+[2023-01-06 18:05:18.244] [INFO] ci - [java] Debug Key not expired
+[2023-01-06 18:05:18.244] [INFO] ci - [java] Signing the Apk=A://Test//build//outputs//apk//debug//Test-debug.apk with debugkey=C:\Users\2154743\.android\debug.keystore
+     [java] Running command =C:/Users/2154743/AppData/Local/Android/sdk\build-tools\30.0.2\apksigner.bat sign --ks C:\Users\2154743\.android\debug.keystore --ks-pass pass:android --key-pass pass:android --ks-key-alias androiddebugkey A://Test//build//outputs//apk//debug//Test-debug.apk
+[2023-01-06 18:05:22.186] [INFO] ci - [java]
+[2023-01-06 18:05:22.186] [INFO] ci - [java] Process Exit status = 0
+     [java] Signed the Apk=A://Test//build//outputs//apk//debug//Test-debug.apk	using debugkey=C:\Users\2154743\.android\debug.keystore
+[2023-01-06 18:05:22.288] [INFO] ci - protectedBinaryFinalisation:
+[2023-01-06 18:05:22.289] [INFO] ci - [echo] Preparing finalisation is protected :: release     and is LibraryMode:: false
+[2023-01-06 18:05:22.289] [INFO] ci - publish:
+[2023-01-06 18:05:22.291] [INFO] ci - [echo] Preparing the package for publish
+[2023-01-06 18:05:22.294] [INFO] ci - [copy] Copying 1 file to C:\Users\2154743\VisualizerWorkspace\temp\Test\build\luaandroid\dist
+[2023-01-06 18:05:23.372] [INFO] ci - [java] unSubstituting DriveUnsubstituting Drive ARunning command =SUBST A: /d
+[2023-01-06 18:05:24.376] [INFO] ci - [java] 
+     [java] Process Exit status = 0
+[2023-01-06 18:05:24.379] [INFO] ci - [java] Unsubstitution successful for Drive A
+[2023-01-06 18:05:24.380] [INFO] ci - postcompile:
+[2023-01-06 18:05:24.381] [INFO] ci - [echo] No postcompile task present
+[2023-01-06 18:05:24.381] [INFO] ci - all:
+[2023-01-06 18:05:24.382] [INFO] ci - BUILD SUCCESSFUL
+Total time: 1 minute 13 seconds
+[2023-01-06 18:05:24.508] [INFO] ci - Platform:android , build status : COMPLETED
+[2023-01-06 18:05:24.626] [INFO] ci - Binary successfully copied to C:\Users\2154743\VisualizerWorkspace\Test\binaries\android\Test-release.apk
